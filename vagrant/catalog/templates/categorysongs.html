@@ -1,0 +1,21 @@
+{% block content %}
+    <div>
+            <div>
+                <h1 class='text-center'>{{ category }}</h1><br>
+            </div>
+
+
+
+    <div class='col-lg-12'>
+            {% for i in songs %}
+        <div class='col-lg-4'>
+            <p>{{ i.song_id }}</p>
+            <span><p><a href= "">{{i.name}}</a></p></span>
+        </div>
+
+            {% endfor %}
+    </div>
+
+    </div>
+{% endblock %}
+

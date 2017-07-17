@@ -6,8 +6,12 @@
         <link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles.css') }}">
     </head>
     <body>
-        <div class="container">
-            {% block content %}
+        {% include "header.html" %}
+        {% include "index.html" %}
+        <div id="content">{% block content %}{% endblock %}</div>
+        <div id="footer">
+            {% block footer %}
+            &copy; Copyright 2008 by <a href="http://domain.invalid/">MH</a>.
             {% endblock %}
         </div>
     </body>

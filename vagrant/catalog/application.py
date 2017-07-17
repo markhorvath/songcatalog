@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from sqlalchemy import and_
+from sqlalchemy import and_, distinct, func, or_
 
 from songsdb_setup import Base, Song, Tags, Names
 
@@ -26,9 +26,17 @@ session = DBSession()
 @app.route('/')
 @app.route('/index/')
 def showCategories():
-    tags = session.query(Tags).distinct(Tags.tags).group_by(Tags.tags)
-    return render_template('index.html', tags = tags)
+    tags = session.query(Tags).group_by(Tags.tags).all()
+    return render_template('main.html', categories = tags)
 
+@app.route('/index/<category>/')
+def showCategorySongs(category):
+    ids = session.query(Tags.song_id).filter(Tags.tags.like(category)).all()
+    ids = [r[0] for r in ids]
+    print ids
+#    ids = [3,4,8,16]
+    names = session.query(Names).filter(Names.song_id.in_(ids)).all()
+    return render_template('categorysongs.html', songs = names, category = category)
 
 def getCategory(query):
     results = session.query(Tags.tags).filter(Tags.tags.like('%query%')).all()
