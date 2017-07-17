@@ -1,0 +1,1102 @@
+0|Baa, Baa, Black Sheep
+0|Ah! vous dirais-je, Maman
+1|Where Is Thumbkin (GBFS)
+1|Frere Jacques (GBFS)
+1|Are You Sleeping (GBFS)
+1|Brother John (GBFS)
+2|A-Hunting We Will Go
+3|Farmer in the Dell (GTSC)
+4|Bingo (GTSC)
+5|Wheels on the Bus (NA)
+5|Bus Song (NA)
+5|Play Song (NA)
+6|Mulberry Bush (GTSC)
+6|Here We Go Round the Mulberry Bush (GTSC)
+7|Down by the Station (GTSC)
+8|Go in and Out the Window (GTSC)
+9|Hot Cross Buns v. 1
+10|Hot Cross Buns (refrain, var 2) (GTSC)
+11|Hush Little Baby
+11|Mockingbird
+12|Mary Had a Little Lamb
+13|Itiskit, Itaskit (GTSC)
+13|A-Tisket, A-Tasket (GTSC)
+13|A Tisket, A Tasket (GTSC)
+14|It's Raining, It's Pouring (GTSC)
+15|London Bridge (GTSC)
+15|London Bridge Is Falling Down (GTSC)
+15|London Bridge is Broken Down (GTSC)
+16|Kookabarra (YFAS)
+16|Kookelberry (YFAS)
+16|Kookaburra (YFAS)
+17|Muffin Man (GTSC)
+18|Old MacDonald's Farm (GBFS)
+18|Old MacDonald Had a Farm (GBFS)
+19|Polly, Put the Kettle On [1] (WCBB)
+19|Polly Put the Kettle On [1] (WCBB)
+19|Jenny's Bawbee [1] (WCBB)
+20|Put Your Finger in the Air (GTSC)
+21|Row, Row, Row Your Boat (GTSC)
+22|Sing a Song of Sixpence
+23|Charles O'Reilly [1] (OMI 528)
+23|Robber [1] (OMI 528)
+23|Catal Ua Ragallaig [1] (OMI 528)
+23|Charley Reilly [1] (OMI 528)
+23|Croppy Boy [1] (OMI 528)
+24|Hickory Dickory Dock (GTSC)
+24|Dickory Dickory Dock (GTSC)
+24|Hickety Dickety Dock (GTSC)
+25|Eency Weency Spider (AFSC)
+25|Itsy Bitsy Spider (AFSC)
+26|Pop Goes the Weasel (PALL)
+27|Ring Around the Rosie
+28|Rock-a-bye Baby
+29|Skip to My Lou
+30|Three Blind Mice (GTSC)
+31|Twinkle, Twinkle, Little Star
+31|Ah! vous dirais-je, Maman
+32|Ah! vous dirai-je, Maman
+33|Lavender's Blue
+34|Lavender Blue [c] (FBTH)
+34|Dilly, Dilly [c] (FBTH)
+35|Off to California [1] (OMI 1629)
+35|Imtigte Go California [1] (OMI 1629)
+36|America the Beautiful
+36|Materna
+36|O Beautiful for Spacious Skies
+36|O Mother Dear, Jerusalem
+36|New-Born King Who Comes Today
+36|God a Very Present Help
+36|O Master Workman of the Race
+36|My Life Flows On
+36|O Savior Dear! Immanuel!
+36|America, the Beautiful
+37|Alouette
+38|Amazing Grace [1] (IMSL)
+38|New Britain [1] (IMSL)
+38|Harmony Grove [1] (IMSL)
+38|I Waited Patiently for God [1] (IMSL)
+38|When God Our Savior's Love for Us [1] (IMSL)
+38|There Is a Safe and Secret Place [1] (IMSL)
+38|Behold the Saviour of Mankind [1] (IMSL)
+38|Preciose a Grace de Jesus [1] (IMSL)
+38|Psalm 142 [1] (IMSL)
+38|Onuniyan tehani waun [1] (IMSL)
+38|Unite and Join Your Cheerful Songs [1] (IMSL)
+38|Simon of Cyrene [1] (IMSL)
+39|Anchors Aweigh
+40|Au Clair de Lune
+40|Au Clair de la Lune
+41|Auld Lang Syne [1] (GBFS)
+41|Should Old Acquaintance Be Forgot [1] (GBFS)
+42|Happy Birthday
+42|Birthday Song
+42|Happy Birthday to You
+43|When the Saints Go Marching In
+44|Swing Low, Sweet Chariot [1] (ABFS)
+45|Silent Night
+45|Stille Nacht, heilige Nacht
+45|Silent Night! Holy Night!
+45|Silent Night! Peaceful Night!
+45|Usiku Mkuu
+45|Noite de Paz! Noite de Amor!
+45|Sunbeams
+45|Belle Nuit, Sainte Nuit
+46|Banana Boat Song
+46|Day-O
+47|Blue Bells of Scotland, str1 (WCDJ)
+47|Bluebells of Challon, str1 (WDCJ)
+47|Ho Ro My Nut-Brown Maiden, str1 (WDCJ)
+48|Bonnie Dundee
+48|Bonnets of Bonny Dundee
+48|Riding a Raid
+49|Charge!
+50|Comin' Thru' the Rye [1] (SOSB)
+50|Coming Through the Rye [1] (SOSB)
+50|Gin a Body Meet a Body [1] (SOSB)
+50|Common' Frae the Town [1] (SOSB)
+51|Colonel Bogey March
+52|Down by the Bay
+52|Yialo Yialo
+53|Drunken Sailor
+54|Oro Se do Bheatha Bhaile
+54|An Dord Feinne
+54|An Dord Feinne
+54|Dord na bhFiann
+54|Oro Se Do Beatha Abhaile
+55|Ten Little Indians (GTSC)
+56|Malbrough s'en Va-t-en Guerre
+56|Marlborough Has Left for the War
+57|For He's a Jolly Good Fellow [1] (MASO)
+57|Bowler's Anthem (MASO)
+58|Bear Went Over the Mountain
+59|Fum, Fum, Fum (Veinticinco de dicembre)
+60|I Wonder as I Wander
+61|Hava Nagila
+61|Havah Nagilah
+61|Let's Be Happy
+62|How Great Thou Art [v] (HYM)
+62|O Store Gud [v] (HYM)
+62|Du Store God [v] (HYM)
+62|O Mighty God, How Great Thou Art [v] (HYM)
+63|In the Hall of the Mountain King
+64|La Cucaracha (CSAS)
+64|Cockroach Song (CSAS)
+65|Lightly Row (GBFS)
+66|O Canada
+66|Lord of the Lands, Beneath Thy Bending Skies
+66|O Canada! Our Fathers' Land of Old
+67|Ode to Joy from Symphony #9 in Dm (Beethoven)
+67|Hymn to Joy
+67|Joyful, Joyful, We Adore Thee
+67|Alleluia, Alleluia! Hearts to Heaven
+67|God Has Spoken by His Prophets
+67|Tell It Out with Gladness
+67|Sing with All the Saints in Glory
+67|Christ, Whose Purpose Is to Kindle
+67|Christ Is Risen! Shout Hosanna! God, Who Stretched the Spangled Heavens
+67|Jubilosos, te adoramos
+67|Alleluia! Sing to Jesus
+67|God, All Nature Sings Thy Glory
+67|On This Day of Celebration
+67|What a Joy, this Habitation!
+67|O How Glorious, Full of Wonder
+67|Glorious Things of Thee Are Spoken
+67|What a World of Sound
+67|Hymn for the Nations
+67|God, We Spend a Lifetime Growing
+67|Onward Brothers, March Still Onward
+67|God, We Join in Celebration
+67|Looking Back, O God, We Wonder
+67|On the Beach, the Waves of Waters
+67|Little Children, Wake and Listen!
+67|Hallelujah! Hallelujah!
+67|Aleluia! Aleluia! Gratos Hinos Entoai
+67|Kwa Furaha Twakusifu
+67|Christ, We Come with Joy and Gladness
+67|Listen, Now We Have a Mystery
+68|Oats, Peas, Beans and Barley Grow (GTSC)
+69|Michael, Row the Boat Ashore
+69|Michael Row Your Boat Ashore
+70|Loch Lomond [c] (GBFS)
+70|Red Is the Rose [c] (GBSF)
+70|Bonnie Banks of Loch Lomond [c] (GBFS)
+71|Long, Long Ago [intro] (IMSL)
+72|My Bonnie Lies over the Ocean [v] (GBFS)
+73|Little Brown Jug
+74|1812 Overture, andante [4] (IMSL)
+75|Oh My Darling, Clementine
+75|Found a Peanut
+76|Give Me That Old-Time Religion, var 1
+76|Give Me That Old Time Religion
+76|It Was Good for Our Mothers
+77|Over the Hills and Far Away (CSB1)
+77|Sharpe's Rifles (CSB1)
+78|Over the Rainbow (FBTH)
+78|Somewhere Over the Rainbow (FBTH)
+79|Polly Wolly Doodle
+80|British Grenadier's March (BYFM)
+80|British Grenadiers (BYFM)
+81|Major John Bruce's Quick Step
+81|Major John Bruce's Favourite
+82|House of the Rising Sun
+83|Little Drummer Boy
+83|Carol of the Drum
+84|Huron Carol
+84|Twas in the Moon of Wintertime
+84|Indian Christmas Carol
+84|Jesous Ahatonhia
+85|College Hornpipe, str1 (WCDJ)
+85|Sailor's Hornpipe, str1 (WCDJ)
+85|Jack's the Lid, str1 (WCDJ)
+86|Irish Washerwoman, str1 (WCDJ)
+86|Corporal Casey, str1 (WCDJ)
+86|County Courtship, str1 (WCDJ)
+86|Dargason, str1 (WCDJ)
+86|Irishwoman, str1 (WCDJ)
+86|Irish Waterman, str1 (WCDJ)
+86|Irish Wash-Woman, str1 (WCDJ)
+86|Jackson's Delight, str1 (WCDJ)
+86|Paddy McGinty's Goat, str1 (WCDJ)
+86|Wash Woman, str1 (WCDJ)
+86|Snouts and Ears of America, str1 (WCDJ)
+86|Sedany, str1 (WCDJ)
+86|Sedanny, str1 (WCDJ)
+86|Lane County Bachelor, str1 (WCDJ)
+87|Scarborough Fair [ver1] (TTFK)
+88|Simple Gifts, var 1
+88|Lord of the Dance
+88|I Danced in the Morning
+89|Take Me Out to the Ball Game
+90|Army Goes Rolling Along (FT)
+90|Caisson Song (FT)
+90|Caissons, The (FT)
+90|Caissons Go Rolling Along (FT)
+90|Army Anthem (FT)
+90|Army Song (FT)
+91|Yellow Rose of Texas (LSMC)
+92|Tom Dooley, var 1
+93|Were You There When They Crucified My Lord?
+93|Were You There
+93|L'As-Tu Vu, La-Bas?
+94|Yankee Doodle (LoC)
+94|Valiant Conscript (LoC)
+94|London Dance (LoC)
+95|Turkey in the Straw
+95|Old Zip Coon
+96|Neat Mr. John (CDM2)
+97|When Johnny Comes Marching Home Again [intro] (LoC)
+97|Ants Go Marching One by One [intro] (LoC)
+97|Wind It Blew Up the Railroad Track [intro] (LoC)
+98|Up on the Housetop [v] (IMSL)
+98|Up on the House-top [v] (IMSL)
+99|A la nanita nana
+100|My Heart Is Sore
+100|Ta Mo Croide Craidte
+101|Aase's Death (Peer Gynt)
+102|Aegukga
+103|Advance Australia Fair [i] (PANA)
+104|After the Ball [v] (AFL)
+105|All the Blue Bonnets Are Over the Border
+106|Aloha 'Oe
+106|Farewell to Thee
+106|Aloha Oe
+107|Alla Hornpipe
+108|Amapola [v] (LACA)
+108|Pretty Little Poppy [v] (LACA)
+109|Adeste Fideles (CCAB)
+109|Oh, Come All Ye Faithful (CCAB)
+109|How Firm a Foundation (CCAB)
+109|O Come, Let Us Adore Him (CCAB)
+109|Hither, Ye Faithful, Haste with Songs of Triumph (CCAB)
+109|Psalm 29, 1-5, 9-11 (CCAB)
+109|For He Alone Is Worthy (CCAB)
+109|Let's Worship and Adore Him (CCAB)
+109|Oh, Vinde, Fieis! (CCAB)
+109|Conditions of Approach to God (CCAB)
+109|O Peuple Fidele (CCAB)
+109|Come Hither, Ye Faithful (CCAB)
+109|O Come All Ye Faithful (CCAB)
+110|Air on the G String from Orchestral Suite #3 in D, BWV 1068, mvmt 2 (Bach)
+111|Amami, Alffedo
+112|Across the Field (OSUL)
+113|Also Sprach Zarathustra
+113|Thus Spake Zarathustra
+113|Sunrise Theme
+114|Allegro con fuoco from New World (finale theme), Op. 95
+115|Adagio Cantabile (Pathetique)
+116|American Patrol (first theme)
+117|Bahay Kubo
+118|Angels from the Realm of Glory
+118|Regent Square
+118|Christ Is Made the Sure Foundation
+118|Lo, He Comes with Clouds Descending
+118|Glory Be to God the Father
+118|Holy Father, Great Creator
+118|Light's Abode, Celestial Salem
+118|Look, Ye Saints
+118|God the Lord, a King Remaineth
+118|Worship Christ, the Risen King!
+118|Praise, My Soul, the King of Heaven
+118|Easter People, Raise Your Voices
+118|Judge Eternal, Throned in Splendour
+118|In His Temple Now Behold Him
+118|Thanks to God Whose Word Was Spoken
+118|Come and Feast, for All Are Welcomed
+118|Jesus Came, the Heavens Adoring
+118|O Thou God of My Salvation
+118|Blessed Father, Great Creator
+118|Let Us Sing the King Messiah
+118|Children, Loud Hosannas Singing
+119|Iris [c] (HYM)
+119|Angels We Have Heard on High [c] (HYM)
+119|Angels from the Realm of Glory [c] (HYM)
+119|Gloria [c] (HYM)
+120|Aura Lea [i] (Duke)
+120|Aura Lee [i] (Duke)
+121|Love Me Tender [v] (PRFB)
+121|Aura Lea [v] (PRFB)
+121|Aura Lee [v] (PRFB)
+122|More Pretty Girls Than One (BPTB)
+122|There's More Pretty Girls Than One (BPTB)
+123|Avondale
+124|Barcarolle (from Tales of Hoffman)
+125|Away in a Manger (Mueller)
+126|Away in a Manger (Cradle Song by Kirkpatrick)
+126|We Enter Your Church
+126|Lord Is My Shepherd
+126|One Candle Is Lit
+126|Kawadia Siku Za Kuzaliwa
+127|Allegro from Eine Kleine Nachtmusik, K. 525, mvmt 1
+128|Ave Verum Corpus, K. 618
+129|Barnum and Bailey's Favorite
+130|Badinerie from Orchestral Suite #2 in Bm, BWV 1067, mvmt 7
+131|Dixie's Land [verse] (CWSB)
+131|Dixie [verse] (CWSB)
+132|Avec la Garde Montante, intro
+133|Avec la Garde Montante, main (Carmen)
+134|Ave Maria (Schubert)
+135|Ave Maria (Gounod)
+136|Columbia, the Gem of the Ocean
+137|Autumn (Four Seasons, allegro mvt 1), RV 293
+138|Autumn (Four Seasons, allegro, mvt 2), RV 293
+139|Arioso BWV 156 (sinfonia to Cantata)
+140|Aragonaise (Carmen)
+141|Anitra's Dance (Peer Gynt)
+142|Italian Ground (Division Flute)
+143|Beulah Land
+143|I've Reached the Land of Corn and Wine
+143|Sanctified by Faith
+143|There Is a Land of Corn and Wine
+144|Beautiful Dreamer [i] (MFS)
+145|Believe Me If All Those Endearing Young Charms, str1 (WCDJ)
+145|Believe Me If All Those Endearing Young Charms, str1 (WCDJ)
+145|Fair Harvard, str1 (WCDJ)
+145|My Lodging Is in the Cold, Cold Ground, str1 (WCDJ)
+145|Behold My Love, str1 (WCDJ)
+146|Blessed Assurance
+146|Assurance
+146|Blessed Assurance-Jesus Is Mine
+146|Welcoming God
+146|Que Seguranca! Sou de Jesus!
+147|Berceuse (from Dolly), Op. 56, #1
+148|Blue Moon
+149|Bist du Bei Mir
+149|If Thou Art Near
+150|Scene 12, Arabian Dance (Coffee), Nutcracker Suite (Tchaikovsky)
+151|Bridal Chorus from Lohengrin
+152|Bring a Torch, Jeanette, Isabella
+153|Bobby Shafto
+154|Bolero
+155|Bourree from Lute Suite #1 in Em, BWV 996
+156|Careless Love (CSAS)
+157|Bourree from Flute Sonata in G, Op. 1, #5, HWV 363b, mvmt 4
+158|Brian Boru's March
+158|Brian Borumha
+158|Brian Borouhme
+158|Piper's March
+158|Brian Bohru's March
+158|Tullinahaw
+159|Barney Brallaghan [2] (WCDJ)
+159|Bernard Ua Brolcain [2] (WCDJ)
+159|Blewitt's Jig [2] (WCDJ)
+159|Master Tailor's Lilt [2] (WCDJ)
+159|Miss Blewit's Jig [2] (WCDJ)
+159|Mrs. Barney Brallaghan [2] (WCDJ)
+159|'Twas on a Windy Night [2] (WCDJ)
+159|Bluett's Lilt [2] (WCDJ)
+160|Celeste Aida
+161|Caddam Woods
+162|Carol of the Bells
+162|Ukrainian Carol
+162|Ring, Christmas Bells
+162|Scchedryk
+163|Caprice No. 24, Op. 1, MS 25 (Paganini)
+164|Carrickfergus
+165|Chanson de Matin (Morning Song), Op. 15, #2
+166|Carol of the Birds
+167|Chanson Baladee
+168|Che faro senza Euridice?
+168|J'ai Perdu Mon Eurydice from Orfeo ed Euridice
+169|Cold Frosty Morning
+170|Chanson Triste from Twelve Pieces
+170|Chanson Triste from Douze Morceaux
+170|Sad Song from 12 Pieces
+171|Cielito Lindo (CSAS)
+171|You, Me, and Us (CSAS)
+172|Scene 12, Chinese Dance (Tea), Nutcracker Suite (Tchaikovsky)
+173|Colonel Robertson
+173|Massacre of Glencoe
+174|Clair de Lune, L. 75(Debussy)
+175|Come by the Hills
+175|Boy from the Erne
+175|Boy from Ireland
+176|Clarinet Polka
+176|Grandfather Polka
+177|Combination March
+178|Come and Dine
+179|Come, Ye Sons of Art
+180|Cooley's Reel
+180|Tulla Reel
+180|Put the Cake on the Dresser
+181|Crossing the Minch
+181|McNabb's Hornpipe
+181|Rob Roy Crosses the Minch
+182|Come Thou Fount of Every Blessing
+182|Nettleton
+182|Welcome, Welcome, Dear Redeemer
+182|The Surrender
+182|Praise the One Who Breaks the Darkness
+182|Would You Bless Our Homes and Families
+182|God, Whose Giving Knows No Ending
+182|Hear the Good News of Salvation
+182|For the Music of Creation
+182|We Give Thanks for Our Salvation
+182|Christ, Your Love Is Overwhelming
+182|God, We Praise You
+182|SIng a New Church
+182|God of Justice Overflowing
+182|God Is Here
+182|All the Music Sung and Played Here
+182|Giving God, We Pauce and Wonder
+182|Clap Your Hands, O Faithful People
+182|There Are Many Ways of Sharing
+182|God of Love, We Sing Your Glory
+182|Fonte Es Tu de Toda Bencao
+182|Here We Gather As God's People
+182|Holy Spirit, Ever Dwelling
+182|Brothers, Sisters, Let Us Gladly
+182|Tangazeni Neno Lake
+182|Long Ago You Taught Your People
+183|Corn Riggs [2] (OPC2)
+183|Corn Riggs Are Bonny [2] (OPC2)
+183|New Corn Riggs [2] (OPC2)
+183|Northern Song [2] (OPC2)
+184|Country Gardens
+184|Handkerchief Dance
+184|In an English Country Garden
+184|Here's to the Crabgrass
+185|Cranham
+185|In the Bleak Midwinter
+185|What Can I Give Him
+185|Seek Ye First the Kingdom
+185|Pelo Vale Escuro
+185|Frimas Froids de L'Hiver
+186|Conversation with Death (Oh Death)
+187|Csardas (Largo)
+188|Csardas (Allegro vivo)
+189|Csardas (meno sections)
+190|Csardas (final allegros)
+191|Da New Rigged Ship
+191|The New Riggit Ship
+192|Daisy Bell (Bicycle Built for Two)
+193|Da Full Rigged Ship
+194|Young Man's Dream
+195|Dance of the Blessed Spirits
+195|Scene des Champs-Elysees from Orfeo ed Euridice
+196|Scene 12, Dance of the Mirlitons (Reed Flutes), Nutcracker Suite (Tchaikovsky)
+197|La Concorde
+197|National Anthem of Gabon
+198|Danse Macabre, Op. 40 (beginning themes)
+199|Danse Macabre, Op. 40 (G#m middle third)
+200|Danse Macabre, Op. 40 (final third)
+201|De plus en plus se renouvelle
+202|Dance of the Hours (La Gioconda)
+203|Scene 14, Variation II, Dance of the Sugar Plum Fairy, andante, Nutcracker Suite (Tchaikovsky)
+204|Day by Day and with Each Passing Moment
+204|Blott en Dag
+204|Dia a Dia
+205|Deh Vieni, Non Tardar (Marriage of Figaro), K. 492
+206|Das Klinget so Herrlich (Magic Flute), K. 620
+207|Sedany (DM1651)
+207|Dargason (DM1651)
+207|Sedanny (DM1651)
+207|Welsh Sedawny (DM1651)
+207|Hawthorne Tree (DM1651)
+207|Cynwyd (DM1651)
+208|Danny Boy
+208|Londonderry Air
+208|I Cannot Tell
+208|My Own Dear Land, Where'er My Footsteps Wander
+208|O Christ the Same
+208|He Looked Beyond My Fault
+208|Go, Silent Friend
+208|Above the Hills of Time the Cross Is Gleaming
+208|We Shall Go Out with Hope of Resurrection
+209|Deck the Hall with Boughs of Holly, 1862 version (wiki)
+210|Deutschlandlied
+211|Dans la Foret Lointaine
+211|Coucou Hibou
+212|December (Christmas from the Seasons)
+213|Ding Dong Merrily on High
+213|Le Branle de l'Officiel
+214|Der Flohwalzer
+214|Flea Waltz
+214|Chopsticks
+214|Dog Waltz
+214|Cat Waltz
+214|Donkey March
+214|Folls' Polka
+214|Princess Two-Legs
+214|Little Monkeys
+214|Cat Polka
+214|I Stepped on the Cat
+214|Thief March
+215|Die Gedanken Sind Frei (RSO8)
+215|Thoughts Are Free (RSO8)
+216|Di Provenza il Mar, il Sol
+216|In Province from La Traviata
+217|Die Forelle (The Trout)
+218|Dona Nobis Pacem (ESCA)
+218|Round for Peace (ESCA)
+218|Holy Lord (ESCA)
+219|Doraji
+220|Dovecote Park
+221|Drink to Me Only With Thine Eyes (GBFS)
+222|Drive the Cold Winter Away [1] (DM1651)
+222|In Praise of Christmas [1] (DM1651)
+222|All Hail to the Days [1] (DM1651)
+223|Drowsy Maggie
+224|Arirang
+225|Early One Morning
+225|The Lamenting Maid
+225|The Lovesick Maid
+226|Duncan Gray (OPC3)
+227|Echos
+228|Elite Syncopations
+229|Ecossaise
+230|Edo Lullaby
+231|El Condor Pasa
+232|Elsa's Procession to the Cathedral
+233|Entr'acte from Carmen
+234|Elegie from Dix pieces de genre
+234|Melodie from Dix pieces de genre
+234|Elegie jouee dans les Erynnies
+234|O doux printemps d'autrefois (Massenet)
+235|Entr'acte No. 3 from Rosamunde
+236|Espanoletas from Libra Segundo
+237|Lo, How a Rose E'er Blooming (Es ist ein Ros entsprungen)
+237|Spotless Rose
+237|A Rose Has Sprung Up
+237|A Great and Mighty Wonder
+237|Rosa Mystica
+237|Behold, a Branch Is Growing
+237|Stable Lamp Is Lighted
+237|Sing to the Lord a New Song
+237|How Lovely Is Your Dwelling
+237|Une Fleur Vient d'Eclore
+238|El Vito (trad)
+239|Estudiantina
+240|Farandole from L'Arlesienne Suite No. 2
+241|Entrance of the Gladiators
+242|Finale from Carnival of the Animals
+243|Abendsegen (Evening Prayer) from Hansel and Gretel
+243|Children's Prayer from Hansel and Gretel
+244|Cock Up Thy Beaver, Jemme, m.57-64 (HAM)
+244|Johnny, Cock Thy Beaver, m.57-64 (HAM)
+245|Faronells Division on a Ground, theme (JPDV)
+245|Faronell's Division on a Ground, theme (JPDV)
+245|Faronell's Ground, theme (JPDV)
+246|Scene 15, waltz, Final Waltz and Apotheosis, Nutcracker Suite (Tchaikovsky)
+247|Scene 15, Apotheosis, Nutcracker Suite (Tchaikovsky)
+248|Flight of the Bumblebee (first half)
+249|Flight of the Bumblebee (second half)
+250|Florentine March (first half), Op. 214
+251|Florentine March (second half), Op. 214
+252|Flowres of the Forrest (JSHM)
+252|Flowers of the Forest (JSHM)
+253|Finlandia
+253|Be Still, My Soul
+253|I Sought the Lord
+253|We Rest on Thee
+253|A Christian Home
+253|This Is My Song
+253|I Then Shall Live
+253|Gweddi dros Gymru
+253|Prayer for Wales
+253|We Would Be Building
+253|His Glorious Name
+253|O Lord, Our Lord
+253|I Am a Man
+253|Just As the Deer
+253|Eternal Spirit, Evermore Creating
+253|All Praise to You
+254|Finnegan's Wake
+255|Flow, My Tears
+256|Flow Gently, Sweet Afton [intro] (LOC)
+257|Waly, Waly [1] (TO12)
+257|Wale' Wale' up yon Bank [1] (TO12)
+257|Waly Waly [1] (TO12)
+257|Wally Wally [1] (TO12)
+257|O Waly, Waly [1] (TO12)
+257|Water Is Wide [1] (TO12)
+257|Lord Jamie Douglas [1] (TO12)
+258|Fly Around My Pretty Little Miss
+258|My Pretty Little Pink
+258|Western Country
+259|For These Are My Mountains
+260|Forest Green
+260|Ploughboy's Dream
+261|Frankie and Johnny
+261|Frankie and Albert
+261|He Done Me Wrong
+261|Bill You Done Me Wrong
+262|Forlane from Orch. Suite No. 1 in C major
+263|Fossiles (Carnival of Animals)
+264|Funiculi, Funicula
+264|Sailing o'er a Summer Sea
+264|Funicoli, Funicola
+265|Furcht der Geliebten (An Cidle)
+266|Garryowen [1] (WCDJ)
+266|Garad-Eogan Le Atrugad [1] (WCDJ)
+266|Garry Owen [1] (WCDJ)
+266|Gary Owen [1] (WCDJ)
+266|Auld Bessy [1] (WCDJ)
+266|Battle of Limerick [1] (WCDJ)
+266|Bivouac of the Dead [1] (WCDJ)
+266|Bosom That Beats [1] (WCDJ)
+266|Daughters of Erin [1] (WCDJ)
+266|Finnegan's Dream [1] (WCDJ)
+266|Hurrah for the Women of Limerick [1] (WCDJ)
+266|Let Bacchus' Sons not Be Dismayed [1] (WCDJ)
+266|O! Friendship Will Smile [1] (WCDJ)
+266|Scotch Laddie [1] (WCDJ)
+266|Walk of the Twopenny Postman [1] (WCDJ)
+266|We May Roam Thro' This World [1] (WCDJ)
+267|Galop Infernal (Orpheus in the Underworld)
+268|Fur Elise
+268|Bagatelle in Am, WoO 59, Bia 515
+269|Funeral March, Sonata #2, mvmt 3, Op. 25 (Chopin)
+269|Marche funebre de la Sonate Op. 35 (Chopin)
+270|Gavotte (Gossec)
+271|Gavotte (French Suite No. 5 in G major), BWV 816, mvmt 4
+272|Gigue (Cello Suite No. 2 in Dm), BWV 1008
+273|Giga (Partita No. 2 in Dm for solo violin), BWV 1004, mvmt 4
+274|Gigue (Cello Suite No. 3 in C major), BWV 1009
+275|Gavotte (Lully)
+276|Sleeping Beauty Ballet, #6 Valse, Op. 66 (Tchaikovsky)
+276|Garland Waltz from Sleeping Beauty
+277|Gavotte (G major, Handel), HWV 491
+278|Giga (Recorder Sonata in F), Op. 1, #11, HWV 369, mvmt 4
+279|German Dance No. 3 (from 12 German Dances), WoO 8
+280|Giga (Sonata No. 1, Il pastor fido), Op. 13, #1, RV 54, mvmt 4
+281|Go Down, Moses (SOCW)
+281|Let My People Go (SOCW)
+282|Gillie Callum (Sword Dance)
+282|Ghillie Challum
+282|Gille Chalium
+282|Tail Toddle
+282|Scottish Sword Dance
+283|Giovani Liete (Marriage of Figaro), K. 492
+284|Go Tell Aunt Rhody (FT)
+284|Old Grey Goose (FT)
+284|Greenville (FT)
+284|Rousseau (FT)
+284|Rousseau's Dream (FT)
+284|Madeira Come, Ye Sinner, Pour and Needy (FT)
+284|Thou Hast Said, Exalted Jesus (FT)
+284|Gently, Lord (FT)
+284|Long upon the Mountains (FT)
+284|Jesus, Friend So Kind and Gentle (FT)
+284|Day of Judgment, Day of Wonders! (FT)
+284|Benediction (FT)
+284|I Love Jesus, He's My Savior (FT)
+284|I Love Jesus (FT)
+284|All My Sins Have Been Forgiven (FT)
+284|Hark! The Gospel News Is Sounding (FT)
+284|Hush, My Dear (FT)
+284|Sinners Will You Scorn the Message (FT)
+284|Savior, Sprinkle Many Nations (FT)
+284|Peace Be with You (FT)
+285|Gigue (Cello Suite No. 1 in G major), BWV 1007, mvmt 6
+286|Grave (Flute Sonata in E minor), HWV 375
+287|Gliding Dance of the Maidens
+288|Grand March (Aida)
+289|Golliwogg's Cakewalk from Children's Corner, L. 113
+290|God Defend New Zealand [i] (PANA)
+291|God Rest You Merry, Gentlemen
+291|God Rest Ye Merry, Gentlemen
+292|Yankee Doodle [1] (GBFS)
+293|Grande Valse Brillante, Op. 18
+294|Grandfather's Clock
+294|My Grandfather's Clock
+295|Grave (Flute Sonata No. 1b in Em), Op. 1, #1b, HWV 359b, mvmt 1
+296|Good King Wenceslas
+296|Tempus Adest Floridum
+296|Who Let the Elves Out?
+296|Gentle Mary Laid Her Child
+296|When the King Shall Come Again
+296|Spring Has Now Unwrapped
+296|Come, Ye Faithful, Raise the Strain
+296|We Are People of God's Peace
+297|Gymnopedie No. 1
+298|Gwine to Run All Night
+299|Greensleeves (ESCA)
+299|What Child Is This (ESCA)
+299|What Feast of Love (ESCA)
+299|You Formed Us in Your Image, Lord (ESCA)
+299|Quem E o Menino? (ESCA)
+299|Song of Love (ESCA)
+299|Mais Qui Est Cet Enfant? (ESCA)
+299|Que Nino Es Este? (ESCA)
+300|Greensleeves to a Ground from the Division Flute, Part 1
+301|Green Bushes
+302|Gymnopedie No. 2
+303|Gymnopedie No. 3
+304|Habanera (Carmen)
+305|Hallelujah Chorus (Messiah), HWV 56
+306|He Shall Feed His Flock, from Messiah, HWV 56
+307|Hamabe No Uta (Song of the Seashore)
+308|He'd Have to Get Under-Get Out and Get Under
+309|Hard Times Come Again No More [intro] (MSF)
+310|Himnusz
+311|Hereupon We're Both Agreed from Yeoman of the Guard
+312|Hanerot Halalu
+313|Hark! The Herald Angels Sing (GBFS)
+313|Mendelssohn (GBFS)
+313|Bethlehem (GBFS)
+313|Praise the Lord; Ye Heavens Adore Him (GBFS)
+313|Ring, O Ring, Ye Christmas Bells (GBFS)
+313|Cantam Anjos Harmonias (GBFS)
+313|Kingship of Jesus Christ (GBFS)
+313|Ecoutez le Chant des Anges (GBFS)
+313|Waimba Sikizeni (GBFS)
+314|Himno Istmeno
+315|Haste to the Wedding
+316|Himno Nacional Mexicano
+317|Hatikvah
+317|Hope
+317|With Hope
+318|Here We Come A-wassailing
+319|Hora Staccato
+320|Hohenfriedberger March
+321|Home on the Range
+321|State Song of Kansas
+322|Hole in the Wall Bornpipe [1] (DM1698)
+323|Humoresque No. 7, Op. 101
+324|How Firm a Foundation
+325|Hyfrydol
+325|Come, Thou Long-Expected Jesus
+325|Our Great Savior
+325|Alleluia, Sing to Jesus
+325|Love Divine, All Loves Excelling
+325|I Will Sing of My Redeemer
+325|Praise the Lord! Ye Heavens, Adore Him
+325|Lord of Glory, You Have Bought Us
+325|Hear Us Now, Our God and Father
+325|Jesus, Thou Divine Companion
+325|Not Alone for Might Empire
+325|God the Spirit, Guid and Guardian
+325|I Will Sing te Wondrous Story
+325|We Have Come at Christ's Own Bidding
+325|Hail, Thou Once-Despised Jesus!
+325|God, Whose Giving Knows No Ending
+325|Praise the Source of Faith and Learning
+325|Call Jehovah Thy Salvation
+325|Lord, Whose Love through Humbe Service
+325|God, You Spin the Whirling Planets
+325|God of Every Generation Hark, the Voice of Jesus Calling
+325|In Thy Heritage the Heathen
+325|Mary Heard the Angel's Message
+325|Come Thou Fount
+326|Hymne a la Nuit from Hipppolyte et Aricie
+327|Hymnum Cantemus Domino (from Jephte)
+328|Hungarian March (Marche Hongroise) (first half--Damnation of Faust)
+329|Hungarian March (Marche Hongroise) (second half--Damnation of Faust)
+330|Hungarian Dance #5 in F#m, WoO 1 (Brahms)
+330|Ungarische Tanze #5 in F#m, WoO 1 (Brahms)
+331|I Am So Proud (Part I, Mikado)
+332|I Am So Proud (Part II, Mikado)
+333|I Am So Proud (Part III, Mikado)
+334|I Dreamt That I Dwelt in Marble Halls from The Bohemain Girl
+335|I Am a Child of God
+336|I Have a Little Dreidel
+336|My Dreidel
+337|I Have a Song to Sing, O! from The Yeoman of the Guard
+338|I Heard the Bells on Christmas Day (Calkin)
+338|Waltham
+338|Fling Out the Banner! Let It Float
+338|Lift Up, Lift Up Your Voices Now
+338|Ring Out the Old, Ring in the New
+338|Uplift the Banner! Let it Float
+338|Stand Up, My Soul; Shake Off Your Fears
+338|O Mighty Man, Why Wilt Thou Boast
+338|Protective Power of God
+338|Eternal One, Thou Living God
+338|Psalm 57, 7-11
+338|We Praise Thee, God
+338|When from the East the Wise Men Came
+338|This Day at Thy Creating Word
+338|High on a Hill of Dazzling Light
+338|O Thou to Whom, in Ancient Time
+338|Press On, Press On, Ye Sons of Light
+338|Ring Out, Wild Bells, to the Wild Sky
+339|I Saw Three Ships (CCAM)
+340|I Shall Not Be Moved
+341|Ideale
+342|I Stand Amazed in the Presence
+342|My Savior's Love
+342|How Marvelous, How Wonderful
+343|I Will Praise Him
+344|I'll Tell Me Ma
+345|Tales from the Vienna Woods, #5 [2], Op.325 (IMSL)
+345|Geschichten aus dem Wienerwald, #5 [2], Op.325 (IMSL)
+345|G'schichten aus dem Wienerwalk, #5 [2], Op.325 (IMSL)
+345|Storielle del Bosco Viennese, #5 [2], Op.325 (IMSL)
+345|Legendes de la foret viennoise, #5 [2], Op.325 (IMSL)
+346|Ievan Polkka
+346|Ievan Polokka
+346|Ieva's Polka
+346|Levan Polkka
+346|Savitaipaleen polkka
+346|Loituma's Polkka
+346|Loituma Girl
+346|Leekspin
+347|Idylle from Suite de trois morceaux
+347|Idylle from Suite of Three Pieces, Op. 116, mvmt 2
+348|Il Canto Degli Italiani
+348|Fratelli d'Italia
+348|Inno di Mameli
+348|National Anthem of Italy
+349|Il Carnevale di Venezia (Carnival of Venice), intro, theme, vars 1,2
+350|Il Carnevale di Venezia (Carnival of Venice), vars 3,4,5
+351|Il Carnevale di Venezia (Carnival of Venice), vars 6,7,8,9
+352|Il Carnevale di Venezia (Carnival of Venice), bridge
+353|Il Carnevale di Venezia (Carnival of Venice), vars 10,11
+354|Il Carnevale di Venezia (Carnival of Venice), var 12
+355|Il Carnevale di Venezia (Carnival of Venice), coda
+356|Il Est Ne, Le Divin Enfant
+356|He Is Born, Divine Child
+356|He Is Born, the Divine Christ Child
+356|He Is Born
+356|Amezaliwa
+356|Born Is He, Little Child
+356|Light the Light, the Fire of Life
+356|Born Today Is the Child Divine
+357|Il Etait Un Petit Navire (There Wa a Little Ship)
+358|In Diesen Heil'gen Hallen (top part, Magic Flute)
+359|In the Bleak Midwinter (Darke)
+360|In Diesen Heil'gen Hallen (bottom part, Magic Flute)
+361|In Dulci Jubilo (Good Christian Men, Rejoice
+361|Good Christian Friends, Rejoice
+361|In Sweetest Rejoicing)
+361|Now Sing We, Now Rejoice
+361|Wakristo Furahini
+362|In the Garden (Miles)
+363|Intermezzo (from Cavalleria Rusticana)
+364|Introduzione (from Centone di Sonate No. 1), MS 112/1, mvmt 1
+365|Invention No. 8 in F major (Bach), BWV 779
+366|Istiklal Marsi
+366|Independence March
+366|National Anthem of Turkey
+367|It Came Upon a Midnight Clear (GBFS)
+367|Thy Word Is Like a Garden, Lord (GBFS)
+367|O Canto Angelica! (GBFS)
+367|Christmas Carol (GBFS)
+368|It's a Long Way to Tipperary
+369|Jana Gana Mana
+369|Thou Art the Ruler of the Minds of All People
+369|Jono Gono Mono
+370|Jarabe Tapatio
+370|Jarabe Topatio
+370|Mexican Hat Dance
+371|Je Crois Entendre Encore
+372|Je Me Recommande
+373|Jeanie with the Light Brown Hair [i] (MSF)
+373|I Dream of Jeanie with the Light Brown Hair [i] (MSF)
+374|Jesus Loves Me
+374|Jesus Loves Me, This I Know
+374|China
+374|Long Ago, God Reached in Love
+374|Cristo Tem Amor por Mim
+375|Jesus Paid It All
+375|All to Christ
+375|He Ai'e Nui Ko'u
+376|Jesu, Joy of Man's Desiring (FT)
+376|Jesu, Joy of Man's Desire (FT)
+377|Jesu, Joy of Man's Desiring (Schop theme)
+377|Jesu, Joy of Man's Desire (Schop theme)
+378|Duke Street
+378|Forth in Thy Name, O Lord
+378|Jesus Shall Reign
+378|I Know That My Redeemer Lives
+378|From All That Dwell below the Skies
+378|Awake, My Soul
+378|Give to Our God Immortal Praise
+378|O God, Beneath Thy Guiding Hand
+378|Forever Settled in the Heavens
+378|Fight the Good Fight
+378|O Lord, Thou Art My God and King
+378|Thou Shalt Arise, and Mercy Yet
+378|'Tis by the Faith of Joys to Come
+378|Come, Let Us Sing unto the Lord
+378|Ye Christian Heralds, Go, Proclaim
+378|How Great Our God's Majestic Name
+378|Awake, My Tongue, Thy Tribute Bring
+378|O Lord, Thou Art My God and King
+378|Jesus, From Whom All Blessings Flow
+378|From Every Stormy Wind That Blows
+378|Forth in Thy Name, O Lord
+378|Turo L.M.
+379|Jingle Bells [v] (GTSC)
+379|One Horse Open Sleigh [v] (GTSC)
+380|Scene 8, A Pine Forest in Winter, Nutcracker Suite (Tchaikovsky)
+380|Scene 8, Journey Through the Snow, Nutcracker Suite (Tchaikovsky)
+381|John Ryan's Polka
+381|Forty Pound Float
+381|Sean Ryan's Polka
+381|40 Pound Float
+381|Armagh
+381|Death from Above
+381|Hills of Connemara
+381|Keadue
+381|Titanic Polka
+382|June (Barcarolle from The Seasons)
+383|Jolly Old Saint Nicholas (GBFS)
+383|Jolly Old St. Nick (GBFS)
+384|Johnnie Cope (Hey, Johnnie Cope, Are Ye Waking Yet?)
+385|Joy to the World (GBFS)
+385|Antioch (GBFS)
+385|Joy to the World, the Lord Is Come (GBFS)
+385|Come, Let s Join Our Cheerful Songs (GBFS)
+385|O for a Thousand Tongues to Sing (GBFS)
+385|Furaha Kwa Ulimwengu (GBFS)
+385|Cantei Que o Salvador Chegou! (GBFS)
+386|Just a Closer Walk with Thee
+386|Closer Walk
+387|Just As I Am, Without One Plea
+387|Woodworth
+387|Lord, Thou Hast Searched Me
+387|God Caling Yet! Shall I Not Hear?
+387|Just As I Am, Thine Own to Be
+387|Tal Qual Estou
+388|Kalinka
+389|Kate Dalrymple
+389|New Highland Laddi
+389|Jingling Johnnie
+390|Kenmure's On and Awa'
+390|Kenmuir's Up and Away, Willie
+390|Hexham Races
+390|I Will If I Can
+390|Kenmore Lads
+390|Kinnegad Slashers
+390|Boys from the West
+390|Clogher Cross
+390|Graham's Brook Jig
+390|Jude's Farewell
+390|Up and Awa
+390|Up and Away
+390|Deanfad Ma Tig Liom
+390|Land of the West
+390|Pins and Needles
+391|Kimigayo
+391|Kimi ga Yo
+392|Kitchener's Army
+392|King George V's Army
+393|King William's March
+394|Kumbaya
+394|Kumbayah
+394|Come By Here
+395|'Tis So Sweet to Trust in Jesus
+395|Trust in Jesus
+395|Que Alegria E Crer em Cristo
+396|79th's Farewell to Gibraltar
+396|The Seventy-Ninth's Highlanders' March
+397|Ach, Ich Fuhl's, Es Ist Verschwunden (Magic Flute), K. 620
+398|Ach! So Fromm, Ach! So Traut (from Martha)
+399|Adagio from Sonata No. 4 in C major for flute and continuo, mvmt 3, BWV 1033
+400|Adagio II. from Sonata in Gm for flute and harpsichord, BWV 1020
+401|Adagio from Flute Sonata in G major, Op. 1, #5, HWV 363b, Handel
+402|Adagio from Oboe Concerto in D minor, SF. 935
+403|Adagio I. from Recorder Sonata #2 in Dm, Op. 2, #2
+404|Adagio from Sonata #1, QV 1-146
+405|Adagio from Sonata #3 for solo violin (top), BWV 1005
+406|Adagio from Sonata #3 for solo violin (bottom), BWV 1005
+407|Adagio from Six Canonic Sonatas for Two Flutes, #1, TWV 40-118, Op. 5
+408|Adagio ma non tanto I. from Sonata #5 in Em for flute and continuo, BWV 1034
+409|Adagio ma non tanto from Sonata #6 in E for flute and continuo, BWV 1035
+410|Adagio from Recorder Sonata in Am, HWV 362, op. 1, #4
+411|Adagio I. from Flute Sonata in G, Op. 1, #5, HWV 363b
+412|Adagio from Sonata #1 for solo violin BWV 1001
+413|Adagio from Recorder Sonata in Gm, HWV 360, op. 1, #2
+414|Adieu, m'amour et ma maitresse
+415|A Maiden's Prayer (La priere d'une vierge)
+416|A Serpina Penserete from La serva padrona
+417|A Scottish Soldier (The Green Hills of Tyrol)
+418|A Man Who Would Woo a Fair Maid from Yeoman of the Guard
+419|A Tempo di Gavotta from Recorder Sonata in C major
+420|Air a l'Italien from Suite in A minor for recorder and strings
+421|Air in D minor from Double Dealer
+422|A la Claire Fontaine
+423|Hush a Bye (TNFS)
+423|Hush 'n' Bye (TNFS)
+423|Hush 'n Bye (TNFS)
+423|All the Pretty Little Ponies (TNFS)
+423|All the Pretty Little Horses (TNFS)
+424|Allegretto from Suite de trois morceaux
+425|Allegro II. from Sonata for Solo Flute in Am, Wq. 132, H. 564
+426|Allegro III. from Sonata for Solo Flute in Am, Wq. 132, H. 564
+427|Allegro I. BWV 1020 from Sonata in G minor for Flute and Harpsichord
+428|Allegro III. BWV 1020 from Sonata in G minor for Flute and Harpsichord
+429|Allegro - Sonata #2 in Eb for flute
+429|harpsichord, BWV 1031 (Bach)
+430|Allegro BWV 1033 from Sonata #4 in C for flute
+430|continuo
+431|Allegro II. BWV 1034 from Sonata #5 in Em for flute
+431|continuo
+432|Allegro IV. BWV 1034 from Sonata #5 in Em for flute
+432|continuo
+433|Allegro II. BWV 1035 from Sonata #6 in E for flute and continuo
+434|Allegro from Flute Sonata in Em, HWV 375 (Handel)
+435|Allegro from Flute Sonata in G, HWV 363b (Handel)
+436|Allegro II. HWV 359b from Flute Sonata in Em
+437|Allegro II. HWV 362 from Recorder Sonata in Am
+438|Allegro IV. HWV 362 from Recorder Sonata in Am
+439|Allegro II. HWV 365 from Recorder Sonata in C
+440|Allegro V. HWV 365 from Recorder Sonata in C
+441|Allegro HWV 369 from Recorder Sonata in F
+442|Allegro II. from Recorder Sonata #2 in Dm, SF. 763, op. 2
+443|Allegro IV. from Recorder Sonata #2 in Dm, SF. 763, op. 2 (Marcello)
+444|Allegro II. from Sonata #1 in F, op. 2 (Marcello)
+445|Allegro K. 545 from Piano Sonata #16 in C
+446|Allegro I. K. 14 from Sonata #5 in C for violin or flute
+447|Allegro II. K. 14 from Sonata #5 in C for violin or flute
+448|Allegro from Concerto in F for Recorder, Strings
+448|Basso continuo (Sammartini)
+449|Allegro TWV 40-118, Six Canonic Sonatas for Two Flutes, #1
+450|Allegro TWV 41-f1 from Sonata in Fm
+451|Allegro TWV 41-f2 from Sonata #1 in F
+452|Allegro II. TWV 40-101 (top) from Sonata without bass
+453|Allegro II. TWV 40-101 (bottom) from Sonata without bass
+454|Allegro TWV 40-102 (top) from Sonata without bass
+455|Allegro TWV 40-102 (bottom) from Sonata without bass
+456|Allegro TWV 40-104 (top) from Sonata without bass
+457|Allegro TWV 40-104 (bottom) from Sonata without bass
+458|Allegro from Concerto for Flautino in C
+459|Allegro I. RV 428 from Concerto #3 Il Gardellino
+460|Allegro III. RV 428 from Concerto #3 Il Gardellino
+461|Allegro assai IV. BWV 1035 from Sonata #6 in E for flute
+461|continuo
+462|Allegro assai Sonata II from Il Pastor Fido, op. 13, #2, RV 55
+463|Allegro assai TWV 40-120 from Six Canonic Sonatas for two flutes, #3
+464|Allegro assai TWV 40-123 from Six Canonic Sonatas for two flutes, #6
+465|Allegro con brio WoO 26 (top) from Flute Duo in G
+466|Allegro con brio WoO 26 (bottom) from Flute Duo in G
+467|Allegro con espressione Op. 10 Flute I from Three Duets, #1
+468|Allegro con espressione Op. 10 Flute II from Three Duets, #1
+469|Allegro maestoso MS 112-1 from Centone di sonate #1 in Am (Paganini)
+470|Allegro molto RV 443 from Concerto for Flautino in C
+471|Allegro moderato BWV 1031 from Sonata #2 in Eb, flute
+471|harpsichord
+472|Allemande BWV 1007 from Cello Suite #1 in G
+473|Allemande BWV 1008 from Cello Suite #2 in Dm
+474|Allemande BWV 1009 from Cello Suite #3 in C
+475|Allemande BWV 1010 from Cello Suite #4 in Eb
+476|Allemande BWV 1013 from Partita in Am for solo flute
+477|Allemande BWV 1004 from Partita #2 in Dm for solo violin
+478|Alles fuhlt der Liebe Freuden K. 620 (from Magic Flute)
+479|Alma Llanera
+480|Amarilli, Mia Bella
+481|Andalouse by Pessard
+482|Andante BWV 1047, Brandenburg Concerto #2 in F
+483|Andante BWV 1049, Brandenburg Concerto #4 in G
+484|Andante BWV 1030, Sonata #1 in Bm for flute
+484|harpsichord
+485|Andante BWV 1033, Sonata #4 in C for flute
+485|continuo
+486|Andante III. BWV 1034, Sonata #5 in Em for flute
+486|continuo
+487|Andante HWV 360 from Recorder Sonata in Gm
+488|Andante Op. 50 from Flute Sonata in Dm
+489|Andante TWV 41-a3 from Oboe Sonata in Am
+490|Andante TWV 43-d1 from Quartet in Dm Recorder
+491|Andante TWV 41-f1 from Sonata in Fm
+492|Andante TWV 40-101 (top), Sonatas without bass for two flutes
+493|Andante TWV 40-101 (bottom), Sonatas without bass for two flutes
+494|Andante RV 532 from Concerto for Two Mandolins in G
+495|Andante e spiccato SF 935 from Oboe Concerto in Dm
+496|Andante K 315 in C
+497|Andante non troppo moderato Op. 29 from Flute Concerto
+498|Annie Laurie [1] (GBFS)
+499|Apres un reve Op. 7 from Trois melodies
+500|April (Snowdrop) from The Seasons

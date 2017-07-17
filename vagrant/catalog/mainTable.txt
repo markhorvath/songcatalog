@@ -1,0 +1,501 @@
+0|F|1915|anon|120|2/4|GBFS
+1|F|1915|anon|120|4/4|GBFS
+2|D|1777|anon|135|6/8|NA
+3|F|1964|anon|132|6/8|GTSC
+4|G|1964|anon|120|2/4|GTSC
+5|C|1960|anon|120|4/4|NA
+6|G|1964|anon|135|6/8|GTSC
+7|F|1964|anon|120|2/4|GTSC
+8|D|1762|anon|120|4/4|GTSC
+9|G|1798|anon|120|4/4|NA
+10|C|1798|anon|120|4/4|GTSC
+11|F|1948|anon|120|2/4|AFSC
+12|C|1832|Lowell Mason|80|4/4|FT
+13|C|1964|anon|120|2/4|GTSC
+14|C|1964|anon|120|2/4|GTSC
+15|G|1744|anon|92|4/4|GTSC
+16|D|1939|anon|120|4/4|YFAS
+17|G|1964|anon|120|2/4|GTSC
+18|Bb|1915|anon|120|2/4|GBFS
+19|G|1878|anon|120|2/4|WCBB
+20|D|1955|anon|120|4/4|GTSC
+21|C|1964|anon|124|2/4|GTSC
+22|D|1744|anon|120|4/4|GTSC
+23|Em|1903|anon|70|3/4|OMI
+24|Eb|1964|anon|135|6/8|GTSC
+25|D|1948|anon|156|6/8|AFSC
+26|D|1947|anon|150|6/8|PALL
+27|C|1790|anon|135|6/8|NA
+28|G|1765|anon|120|3/4|NA
+29|F|1934|anon|132|2/4|ABFS
+30|C|1964|anon|168|6/8|GTSC
+31|D|1915|anon|100|4/4|GBFS
+32|C|1781|anon|100|2/4|Bouin
+33|D|1672|anon|120|3/4|TBO
+34|C|1948|Eliot Daniel|120|2/2|FBTH
+35|G|1903|anon|56|2/4|OMI
+36|G|1882|anon|100|4/4|FT
+37|G|1946|anon|80|4/4|DB46
+38|C|1835|anon|100|3/4|IMSL
+39|C|1906|Charles A. Zimmerman|108|4/4|FT
+40|A|1750|anon|100|4/4|FT
+41|F|1915|anon|96|4/4|GBFS
+42|G|1911|anon|100|3/4|FT
+43|C|1927|Purvis/Black|224|4/4|FT
+44|G|1840|anon|60|2/4|ABFS
+45|C|1818|Franz Gruber|42|6/8|IMSL
+46|C|1952|anon|100|4/4|FT
+47|G|1881|anon|120|2/4|WCDJ
+48|G|1863|anon|120|6/8|Duke
+49|C|1946|anon|120|4/4|FT
+50|Bb|1880|anon|100|4/4|SOSB
+51|C|1914|Kenneth Alford (Ricketts)|180|2/4|FT
+52|C|1700|anon|100|4/4|FT
+53|F|1824|anon|112|2/4|FT
+54|Em|1745|anon|84|4/4|FT
+55|F|1964|anon|160|4/4|GTSC
+56|G|1780|anon|146|6/8|FT
+57|Eb|1936|anon|110|4/4|MASO
+58|D|1919|anon|146|6/8|FT
+59|Am|1600|anon|120|2/4|FT
+60|Dm|1933|anon|135|6/8|FT
+61|Gm|1750|anon|110|4/4|FT
+62|Bb|1885|anon|60|3/4|HYM
+63|Bm|1875|Grieg|138|4/4|FT
+64|G|1916|anon|120|3/4|CSAS
+65|C|1832|anon|100|4/4|GBFS
+66|F|1880|Calixa Lavallee|100|4/4|FT
+67|Dm|1824|Beethoven|140|2/2|FT
+68|F|1964|anon|162|6/8|GTSC
+69|C|1860|anon|120|4/4|FT
+70|D|1915|anon|80|4/4|GBFS
+71|C|1835|Thomas Haynes Bayly|108|4/4|IMSL
+72|C|1915|anon|144|3/4|GBFS
+73|G|1869|anon|100|4/4|FT
+74|Eb|1880|Tchaikovsky|80|4/4|IMSL
+75|G|1884|anon|100|3/4|FT
+76|G|1891|anon|100|2/4|FT
+77|G|1929|anon|136|2/2|CSB1
+78|Bb|1938|Harold Arlen|104|2/2|FBTH
+79|G|1850|anon|184|4/4|FT
+80|D|1833|anon|112|2/4|BYFM
+81|G|1782|anon|144|6/8|FT
+82|Am|1900|anon|120|6/8|FT
+83|F|1941|Katherine Kenicott Davis|144|2/2|FT
+84|C|1643|Jean de Brebeuf|64|2/4|FT
+85|Bb|1881|anon|180|4/4|WCDJ
+86|G|1881|anon|192|6/8|WCDJ
+87|G|1891|anon|132|3/4|TTFK
+88|A|1848|Joseph Brackett Jr.|120|4/4|FT
+89|Bb|1908|Albert Von Tilzer|204|3/4|FT
+90|Bb|1908|Edmund L. Gruber|120|2/4|FT
+91|A|1864|anon|100|4/4|LSMC
+92|C|1929|Frank Proffitt|120|4/4|FT
+93|D|1865|anon|108|4/4|FT
+94|D|1845|anon|108|2/4|LoC
+95|C|1824|anon|180|2/2|FT
+96|A|1740|Nathaniel Kynaston|180|2/2|CDM2
+97|Gm|1863|Patrick S. Gilmore|168|6/8|LoC
+98|Eb|1864|Benjamin R. Hanby|136|4/4|IMSL
+99|Dm|1935|anon|150|6/8|FT
+100|G|1903|anon|90|3/4|OMI
+101|Bm|1875|Grieg|50|4/4|FT
+102|G|1935|Ahn Eaktai|72|4/4|FT
+103|G|1942|Peter Dodds McCormick|104|4/4|PANA
+104|Bb|1891|Charles Kassel Harris|180|3/4|DUKE
+105|D|1644|anon|162|6/8|FT
+106|Ab|1878|Queen Liliuokalani|48|4/4|FT
+107|D|1717|Handel|100|4/4|FT
+108|C|1924|Joseph Lacalle|144|2/2|LACA
+109|G|1751|John Francis Wade|80|4/4|CCAB
+110|D|1717|Bach|34|4/4|FT
+111|F|1853|Verdi|126|2/2|FT
+112|Bb|1915|William A. Dougherty Jr.|176|2/4|OSUL
+113|C|1883|Strauss II|69|4/4|FT
+114|Em|1893|Dvorak|152|4/4|FT
+115|Ab|1798|Beethoven|63|2/4|FT
+116|Eb|1885|Frank W. Meacham|108|2/4|FT
+117|C|1799|anon|132|3/4|FT
+118|Bb|1866|Henry Thomas Smart|112|4/4|FT
+119|F|1931|Warren M. Angell|100|4/4|HYM
+120|G|1864|George R. Poulton|88|4/4|DUKE
+121|G|1956|Presley/Matson|80|4/4|PRFB
+122|C|1927|anon|240|4/4|BPTB
+123|D|1858|Dominic Behan|60|3/4|FT
+124|D|1864|Offenbach|84|6/8|FT
+125|F|1887|James R. Murray|100|3/4|FT
+126|F|1895|William James Kirkpatrick|80|3/4|FT
+127|G|1787|Mozart|136|4/4|FT
+128|D|1791|Mozart|66|4/4|FT
+129|Ab|1913|Karl L. King|276|2/2|FT
+130|Bm|1720|Bach|120|2/4|FT
+131|C|1860|Daniel Decatur Emmett|180|2/4|CWSB
+132|Dm|1845|Bizet|168|6/8|FT
+133|Dm|1845|Bizet|100|2/4|FT
+134|C|1825|Franz Schubert|24|4/4|FT
+135|C|1859|Gounod|64|4/4|FT
+136|Ab|1843|Thomas Becket|90|4/4|FT
+137|F|1723|Vivaldi|108|4/4|FT
+138|F|1723|Vivaldi|136|4/4|FT
+139|G|1729|Bach|40|4/4|FT
+140|Dm|1875|Bizet|120|3/8|FT
+141|Am|1875|Grieg|160|3/4|FT
+142|F|1686|anon|120|3/4|FT
+143|G|1870|John Robson Sweney|90|3/4|FT
+144|Eb|1862|Stephen Foster|90|9/8|MSF
+145|A|1881|anon|120|6/8|WCDJ
+146|D|1873|Phoebe Palmer Knapp|94|9/8|FT
+147|E|1864|Gabriel Faure|58|2/4|FT
+148|C|1934|Richard Rodgers|108|4/4|FT
+149|Eb|1718|Gottfried Heinrich Stolzel|80|3/4|FT
+150|Gm|1891|Tchaikovsky|156|3/8|TNS
+151|Ab|1850|Richard Wagner|84|2/4|IMSL
+152|G|1553|anon|60|2/4|FT
+153|D|1805|anon|100|2/4|FT
+154|C|1928|Maurice Ravel|72|3/4|FT
+155|Em|1715|Bach|136|2/2|FT
+156|E|1927|anon|88|4/4|CSAS
+157|G|1713|Handel|132|4/4|FT
+158|C|1699|anon|154|6/8|FT
+159|D|1881|anon|144|9/8|WCDJ
+160|Bb|1870|Verdi|60|6/8|FT
+161|A|1950|Adam Rennie|120|2/4|FT
+162|Bb|1904|Mykola Leontovych|152|3/4|FT
+163|Am|1807|Paganini|116|2/4|FT
+164|A|1760|anon|58|4/4|FT
+165|Bb|1889|Edward Elgar|84|2/4|FT
+166|Am|1600|anon|60|4/4|FT
+167|G|1340|Guillaume de Machaut|106|3/8|FT
+168|C|1762|Gluck|96|4/4|FT
+169|Am|1799|anon|180|4/4|FT
+170|Gm|1878|Tchaikovsky|96|4/4|FT
+171|C|1927|Quirino Mendoza y Cortes|180|3/4|CSAS
+172|Bb|1892|Tchaikovsky|120|4/4|TNS
+173|D|1906|anon|138|6/8|FT
+174|Db|1905|Debussy|54|9/8|FT
+175|C|1800|anon|100|3/4|FT
+176|Bb|1899|Karol Namyslowski|112|2/4|FT
+177|Bb|1896|Scott Joplin|90|4/4|FT
+178|C|1906|Charles Brenton Widmeyer|90|4/4|FT
+179|D|1694|Henry Purcell|120|3/4|FT
+180|Em|1938|anon|180|4/4|FT
+181|D|1939|anon|180|4/4|FT
+182|Eb|1757|John Wyeth|72|3/4|FT
+183|D|1850|anon|108|2/2|OPC2
+184|F|1918|anon|120|4/4|FT
+185|F|1906|Holst|96|4/4|FT
+186|Bm|1916|anon|112|4/4|FT
+187|Dm|1904|Vittorio Monti|60|4/4|FT
+188|Dm|1904|Vittorio Monti|140|2/4|FT
+189|Dm|1904|Vittorio Monti|70|2/4|FT
+190|Dm|1904|Vittorio Monti|160|2/4|FT
+191|D|1899|anon|200|4/4|FT
+192|G|1892|Harry Dacre|180|3/4|FT
+193|Am|1899|anon|150|6/8|FT
+194|G|1663|anon|90|3/4|Bunting
+195|F|1762|Gluck|76|3/4|FT
+196|D|1892|Tchaikovsky|72|2/4|TNS
+197|G|1960|Georges Aleka Damas|100|2/4|FT
+198|Gm|1874|SaintSaens|210|3/4|FT
+199|G#m|1874|SaintSaens|210|3/4|FT
+200|Gm|1874|SaintSaens|210|3/4|FT
+201|Cm|1460|Gilles Binchois|40|6/4|FT
+202|E|1876|Amilcare Ponchielli|60|2/4|FT
+203|Em|1892|Tchaikovsky|80|2/4|TNS
+204|Eb|1872|Oskar Ahnfelt|80|4/4|FT
+205|G|1786|Mozart|34|6/8|FT
+206|F|1791|Mozart|144|4/4|FT
+207|F|1651|anon|180|3/4|DM1651
+208|F|1855|trad|72|4/4|FT
+209|F|1862|anon|132|4/4|wiki
+210|Eb|1797|Haydn|84|4/4|FT
+211|C|1599|anon|108|2/4|FT
+212|Ab|1876|Tchaikovsky|207|3/4|FT
+213|Bb|1588|anon|160|4/4|FT
+214|Gb|1799|anon|108|2/4|FT
+215|c|1965|anon|150|3/4|RSO8
+216|Db|1852|Verdi|60|4/4|FT
+217|Db|1817|Franz Schubert|80|2/4|FT
+218|G|1560|anon|90|3/4|ESCA
+219|G|1600|anon|90|3/4|FT
+220|D|1920|James Braidwood|150|6/8|FT
+221|Eb|1915|anon|74|6/8|GBFS
+222|Dm|1651|anon|120|3/4|DM1651
+223|D|1903|anon|200|4/4|FT
+224|F|1600|anon|90|3/4|FT
+225|C|1599|anon|104|4/4|FT
+226|G|1751|anon|132|4/4|OPC3
+227|G|1711|Jacque Hotteterre|92|3/4|FT
+228|F|1902|Scott Joplin|90|2/4|FT
+229|G|1806|Beethoven|108|2/4|FT
+230|Am|1699|anon|80|4/4|FT
+231|Am|1913|Daniel Alomia Robles|76|4/4|FT
+232|Eb|1850|Richard Wagner|60|4/4|FT
+233|Eb|1845|Bizet|88|4/4|FT
+234|Em|1873|Jules Massenet|48|4/4|FT
+235|Bb|1823|Franz Schubert|72|2/4|FT
+236|Am|1675|Gaspar Sanz|48|3/4|FT
+237|F|1580|anon|96|2/2|FT
+238|Am|1600|anon|108|3/8|FT
+239|D|1881|Emile Waldteufel|207|3/4|FT
+240|D|1872|Bizet|180|2/4|FT
+241|C|1897|Fucik|224|2/2|FT
+242|C|1866|SaintSaens|192|4/4|FT
+243|D|1891|Engelbert Humperdinck|63|4/4|FT
+244|Dm|1694|anon|105|3/2|HAM
+245|Gm|1684|Michel Farinel|90|3/4|JPDV
+246|Bb|1892|Tchaikovsky|204|3/4|TNS
+247|Bb|1892|Tchaikovsky|120|3/4|FT
+248|Am|1900|Rimsky Korsakov|184|2/4|FT
+249|Am|1900|Rimsky Korsakov|184|2/4|FT
+250|Eb|1900|Fucik|232|2/4|FT
+251|Ab|1900|Fucik|232|2/4|FT
+252|D|1630|anon|100|4/4|JSHM
+253|F|1900|Sibelius|100|4/4|FT
+254|Am|1850|anon|200|2/2|FT
+255|C|1596|John Dowland|56|4/4|FT
+256|Bb|1837|Jonathan Edwards Spilman|92|3/4|LOC
+257|F|1733|anon|120|3/4|TO12
+258|D|1924|anon|108|2/4|FT
+259|A|1965|anon|90|12/8|FT
+260|F|1903|anon|90|4/4|FT
+261|C|1955|Hughie Cannon|120|4/4|FT
+262|C|1720|Bach|72|6/4|FT
+263|Bb|1886|SaintSaens|224|2/2|FT
+264|Eb|1880|Luigi Denza|192|6/8|IMSL
+265|Ab|1815|Franz Schubert|84|2/2|FT
+266|G|1881|anon|180|6/8|WCDJ
+267|D|1858|Offenbach|160|2/4|FT
+268|Am|1810|Beethoven|72|3/8|FT
+269|Bbm|1839|Chopin|60|4/4|IMSL
+270|D|1813|FrancoisJoseph Gossec|144|2/2|FT
+271|G|1722|Bach|152|2/2|FT
+272|Dm|1720|Bach|90|3/8|FT
+273|Dm|1720|Bach|99|12/8|FT
+274|C|1720|Bach|216|3/8|FT
+275|Dm|1686|Lully|108|4/4|FT
+276|F|1889|Tchaikovsky|180|3/4|IMSL
+277|G|1705|Handel|120|4/4|FT
+278|F|1710|Handel|162|12/8|FT
+279|F|1796|Beethoven|168|3/4|FT
+280|C|1737|Nicolas Chedeville|150|6/8|FT
+281|Em|1959|anon|110|4/4|SOCW
+282|D|1734|anon|132|4/4|FT
+283|G|1786|Mozart|99|6/8|FT
+284|G|1825|Jean J. Rousseau|120|4/4|FT
+285|G|1720|Bach|126|6/8|FT
+286|Em|1730|Handel|63|3/4|FT
+287|A|1890|Borodin|84|4/4|FT
+288|Ab|1871|Verdi|100|4/4|FT
+289|F|1908|Debussy|108|2/4|FT
+290|Ab|1936|John Joseph Woods|96|4/4|PANA
+291|Em|1760|anon|120|2/2|FT
+292|A|1915|anon|120|2/4|GBFS
+293|Eb|1834|Chopin|216|3/4|FT
+294|Bb|1876|Henry Clay Work|96|4/4|FT
+295|Em|1724|Handel|34|4/4|FT
+296|G|1350|anon|160|4/4|FT
+297|Bm|1888|Erik Satie|76|3/4|FT
+298|D|1850|Stephen Foster|108|2/4|FT
+299|Am|1652|anon|112|3/4|ESCA
+300|Am|1705|anon|63|6/4|FT
+301|C|1760|anon|112|3/4|FT
+302|Am|1888|Erik Satie|80|3/4|FT
+303|Am|1888|Erik Satie|80|3/4|FT
+304|Dm|1845|Bizet|72|2/4|FT
+305|D|1742|Handel|100|4/4|FT
+306|F|1742|Handel|38|12/8|FT
+307|Ab|1916|Tamezo Narita|54|6/8|FT
+308|Eb|1913|Maurice Abrahams|132|2/4|FT
+309|Eb|1855|Stephen Foster|90|4/4|MSF
+310|Eb|1844|Ferenc Erkel|66|4/4|FT
+311|G|1888|Arthur Sullivan|99|3/8|FT
+312|D|1399|anon|100|4/4|FT
+313|F|1915|Mendelssohn|112|4/4|GBFS
+314|D|1902|Jorge A. Santos|104|4/4|FT
+315|C|1909|anon|150|6/8|SCDT
+316|C|1854|Jaime Nuno|120|2/2|FT
+317|Dm|1888|Samuel Cohen|72|2/4|FT
+318|D|1650|anon|164|6/8|FT
+319|Eb|1906|Grigoras Dinicu|132|2/4|FT
+320|C|1795|Frederick the Great|112|4/4|FT
+321|G|1873|Daniel E. Kelley|120|3/4|FT
+322|Bb|1695|Henry Purcell|66|3/4|DM1698
+323|G|1894|Dvorak|48|2/4|FT
+324|Bb|1832|anon|60|4/4|FT
+325|F|1830|Rowland Prichard|112|3/4|FT
+326|G|1733|Jean Philippe Rameau|72|3/4|FT
+327|G|1650|Giacomo Carissimi|90|3/2|FT
+328|A|1846|Berlioz|88|2/2|FT
+329|A|1846|Berlioz|88|2/2|FT
+330|F#m|1869|Brahms|136|2/4|BHDP
+331|Bm|1885|Arthur Sullivan|120|4/4|FT
+332|Bm|1885|Arthur Sullivan|120|4/4|FT
+333|Bm|1885|Arthur Sullivan|120|4/4|FT
+334|Eb|1843|Michael William Balfe|88|3/8|FT
+335|C|1957|Mildred Tanner Pettit|96|4/4|FT
+336|C|1921|Samuel E. Goldfarb|104|4/4|FT
+337|Eb|1888|Arthur Sullivan|84|2/2|FT
+338|Eb|1848|John Baptiste Calkin|100|4/4|HYM
+339|G|1833|anon|120|3/4|CCAM
+340|C|1799|anon|92|4/4|FT
+341|A|1882|Paolo Tosti|58|4/4|FT
+342|Ab|1905|Charles Hutchinson Gabriel|84|4/4|FT
+343|Eb|1898|Margaret Jenkings Harris|100|4/4|FT
+344|D|1894|anon|104|2/4|FT
+345|Bb|1868|Strauss II|120|3/4|IMSL
+346|Dm|1930|anon|108|2/4|FT
+347|G|1889|Benjamin Godard|180|3/4|FT
+348|Bb|1847|Michele Novaro|120|4/4|FT
+349|F|1821|Giulio Briccialdi|105|6/8|FT
+350|F|1821|Giulio Briccialdi|105|6/8|FT
+351|F|1821|Giulio Briccialdi|105|6/8|FT
+352|F|1821|Giulio Briccialdi|105|6/8|FT
+353|F|1821|Giulio Briccialdi|105|6/8|FT
+354|F|1821|Giulio Briccialdi|105|6/8|FT
+355|F|1821|Giulio Briccialdi|105|6/8|FT
+356|Bb|1862|anon|112|4/4|FT
+357|G|1799|anon|112|2/4|FT
+358|D|1791|Mozart|69|2/4|FT
+359|G|1909|Harold Darke|84|4/4|FT
+360|D|1791|Mozart|69|2/4|FT
+361|F|1305|anon|168|6/8|FT
+362|Ab|1912|Charles Austin Miles|54|6/8|FT
+363|F|1890|Pietro Mascagni|54|3/4|FT
+364|Am|1828|Paganini|72|2/2|FT
+365|F|1720|Bach|90|3/4|FT
+366|Gm|1932|Zeki Ungor|100|4/4|FT
+367|Bb|1915|Richard S. Willis|96|6/8|GBFS
+368|Bb|1912|Jack Judge|108|2/4|FT
+369|C|1911|Rabindranath Tagore|104|4/4|FT
+370|C|1870|Jesus Gonzalez Rubio|192|6/8|FT
+371|Am|1863|Bizet|60|6/8|FT
+372|C|1430|Gilles Binchois|198|3/2|FT
+373|F|1854|Stephen Foster|68|4/4|MSF
+374|C|1861|William Batchelder Bradbury|120|2/2|FT
+375|Eb|1865|John Thomas Grape|72|3/4|FT
+376|G|1723|Bach|80|3/4|FT
+377|G|1723|Bach|120|9/8|FT
+378|F|1793|John Hatton|120|2/2|HYM
+379|F|1964|James Lord Pierpont|104|4/4|GTSC
+380|C|1892|Tchaikovsky|72|3/4|TNS
+381|D|1799|anon|120|2/4|FT
+382|Gm|1876|Tchaikovsky|72|4/4|FT
+383|G|1881|anon|100|2/4|GBFS
+384|Gm|1745|anon|116|2/4|FT
+385|D|1839|Lowell Mason|96|2/4|GBFS
+386|Bb|1875|anon|100|4/4|FT
+387|D|1849|William Batchelder Bradbury|90|3/4|FT
+388|Am|1860|Ivan Larionov|240|2/2|FT
+389|A|1750|anon|200|4/4|FT
+390|G|1791|anon|168|6/8|FT
+391|C|1880|Hiromori Hayashi|60|4/4|FT
+392|D|1918|George Stewart McLennan|80|2/4|FT
+393|D|1702|Jeremiah Clarke|112|4/4|FT
+394|C|1920|anon|88|4/4|FT
+395|Ab|1882|William James Kirkpatrick|80|4/4|FT
+396|A|1848|John MacDonald|96|2/4|FT
+397|Dm|1791|Mozart|76|6/8|FT
+398|F|1847|Friedrich von Flotow|76|2/4|FT
+399|C|1730|Bach|40|4/4|FT
+400|Eb|1730|Bach|84|9/8|FT
+401|G|1713|Handel|36|4/4|FT
+402|Dm|1716|Benedetto Marcello|32|3/4|FT
+403|Dm|1712|Benedetto Marcello|42|4/4|FT
+404|Am|1734|Quantz|69|4/4|FT
+405|C|1720|Bach|40|3/4|FT
+406|C|1720|Bach|40|3/4|FT
+407|Em|1738|Telemann|30|2/4|FT
+408|Em|1723|Bach|40|4/4|FT
+409|E|1741|Bach|36|4/4|FT
+410|Am|1725|Handel|34|4/4|FT
+411|G|1713|Handel|69|4/4|FT
+412|Gm|1720|Bach|40|4/4|FT
+413|Gm|1725|Handel|66|3/2|FT
+414|Bb|1450|Binchois|46|6/4|FT
+415|Eb|1856|Tekla BadarzewskaBaranowska|84|4/4|FT
+416|Bb|1730|Pergolesi|34|4/4|FT
+417|Bb|1854|John MacLeod|90|3/4|FT
+418|A|1888|Arthur Sullivan|108|6/8|FT
+419|C|1725|Handel|69|2/2|FT
+420|Am|1712|Telemann|36|4/4|FT
+421|Dm|1693|Henry Purcell|72|3/4|FT
+422|F|1704|anon|72|2/4|FT
+423|Bb|1925|anon|56|4/4|TNFS
+424|Bb|1890|Benjamin Godard|108|2/4|FT
+425|Am|1786|CPE Bach|100|2/4|FT
+426|Am|1786|CPE Bach|100|2/4|FT
+427|Gm|1720|Bach|96|3/4|FT
+428|Gm|1720|Bach|104|2/4|FT
+429|Eb|1720|Bach|90|3/8|FT
+430|C|1720|Bach|112|3/4|FT
+431|Em|1720|Bach|108|4/4|FT
+432|Em|1720|Bach|108|4/4|FT
+433|E|1741|Bach|108|2/4|FT
+434|Em|1712|Handel|108|4/4|FT
+435|G|1714|Handel|96|4/4|FT
+436|Em|1724|Handel|96|4/4|FT
+437|Am|1725|Handel|116|4/4|FT
+438|Am|1725|Handel|116|4/4|FT
+439|C|1725|Handel|168|3/8|FT
+440|C|1725|Handel|152|3/8|FT
+441|F|1725|Handel|100|4/4|FT
+442|Dm|1712|Benedetto Marcello|120|2/4|FT
+443|Dm|1712|Benedetto Marcello|120|2/4|FT
+444|F|1732|Benedetto Marcello|108|4/4|FT
+445|C|1788|Mozart|132|4/4|FT
+446|C|1764|Mozart|126|2/2|FT
+447|C|1764|Mozart|108|2/4|FT
+448|F|1717|Sammartini|112|2/4|FT
+449|G|1738|Telemann|126|2/4|FT
+450|Fm|1728|Telemann|126|4/4|FT
+451|F|1728|Telemann|168|6/8|FT
+452|G|1727|Telemann|104|4/4|FT
+453|G|1727|Telemann|104|4/4|FT
+454|D|1727|Telemann|108|4/4|FT
+455|D|1727|Telemann|108|4/4|FT
+456|Em|1727|Telemann|100|4/4|FT
+457|Em|1727|Telemann|100|4/4|FT
+458|C|1728|Vivaldi|128|3/4|FT
+459|D|1728|Vivaldi|112|4/4|FT
+460|D|1728|Vivaldi|128|3/4|FT
+461|E|1741|Bach|112|3/4|FT
+462|C|1737|Nicolas Chedeville|180|3/8|FT
+463|D|1738|Telemann|104|12/8|FT
+464|Am|1738|Telemann|69|3/8|FT
+465|G|1792|Beethoven|152|4/4|FT
+466|G|1792|Beethoven|152|4/4|FT
+467|G|1810|Friedrich Kuhlau|108|3/4|FT
+468|G|1810|Friedrich Kuhlau|108|3/4|FT
+469|Am|1828|Paganini|168|4/4|FT
+470|C|1728|Vivaldi|116|4/4|FT
+471|Eb|1720|Bach|72|4/4|FT
+472|G|1720|Bach|40|2/2|FT
+473|Dm|1720|Bach|112|4/4|FT
+474|C|1720|Bach|52|4/4|FT
+475|Eb|1724|Bach|76|4/4|FT
+476|Am|1718|Bach|76|4/4|FT
+477|Dm|1720|Bach|60|4/4|FT
+478|C|1791|Mozart|108|2/4|FT
+479|D|1914|Pedro Elias Gutierrez|204|3/4|FT
+480|Gm|1894|Giulio Caccini|66|4/4|FT
+481|Em|1902|Emile Pessard|72|4/4|FT
+482|Dm|1717|Bach|60|3/4|FT
+483|Dm|1721|Bach|60|3/4|FT
+484|Bm|1720|Bach|68|4/4|FT
+485|C|1718|Bach|42|4/4|FT
+486|Em|1723|Bach|48|3/4|FT
+487|Gm|1726|Handel|92|3/4|FT
+488|Dm|1812|Hummel|90|6/8|FT
+489|Am|1728|Telemann|88|4/4|FT
+490|Dm|1716|Telemann|56|4/4|FT
+491|Fm|1728|Telemann|40|4/4|FT
+492|Em|1727|Telemann|63|4/4|FT
+493|Em|1727|Telemann|63|4/4|FT
+494|G|1731|Vivaldi|76|4/4|FT
+495|Dm|1717|Benedetto Marcello|76|4/4|FT
+496|C|1778|Mozart|76|2/4|FT
+497|C|1784|Carl Stamitz|64|2/4|FT
+498|C|1915|Alicia Scott|90|4/4|GBFS
+499|Cm|1874|Gabriel Faure|52|3/4|FT
+500|Bb|1875|Tchaikovsky|120|6/8|FT

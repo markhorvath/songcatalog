@@ -1,0 +1,30 @@
+<html>
+<head>
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+
+
+<body>
+<div>
+        <div>
+            <h1>Song Categories</h1><br>
+            <!-- <a href = "{{url_for('newRestaurant') }}">Create New Restaurant</a> -->
+        </div>
+
+
+
+
+        {% for i in tags %}
+    <div>
+        <span>{{i.tags}}</span>
+    </div>
+
+        {% endfor %}
+
+</div>
+    </body>
+
+
+
+
+</html>
