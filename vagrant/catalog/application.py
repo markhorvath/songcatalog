@@ -88,8 +88,24 @@ def deleteCategory(category, category_id):
         session.commit()
         return redirect(url_for('showCategories'))
     else:
-        print categoryToDelete
         return render_template('deletecategory.html', category = category, category_id = category_id)
+
+@app.route('/index/<category>/<int:category_id>/newsong', methods = ['GET', 'POST'])
+def newSong(category, category_id):
+    if request.method == 'POST':
+        newSong = Song(name = request.form['name'],
+                       key = request.form['key'],
+                       year = request.form['year'],
+                       composer = request.form['composer'],
+                       bpm = request.form['bpm'],
+                       timesig = request.form['timesig'],
+                       source = request.form['source'],
+                       category_id = category_id)
+        session.add(newSong)
+        session.commit()
+        return redirect(url_for('showCategorySongs', category = category, category_id = category_id))
+    else:
+        return render_template('newsong.html', category = category, category_id = category_id)
 
 def getCategory(query):
     results = session.query(Tags.tags).filter(Tags.tags.like('%query%')).all()

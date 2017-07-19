@@ -4,6 +4,7 @@
             <div>
                 <h1 class='text-center'>{{ category }}</h1>
                 <button type="button" value="Delete" onclick="window.location.href='{{url_for('deleteCategory', category = category, category_id = category_id) }}';">Delete</button>
+                <button type="button" value="New" onclick="window.location.href='{{url_for('newSong', category = category, category_id = category_id) }}';">Add New Song</button>
             </div>
 
 
