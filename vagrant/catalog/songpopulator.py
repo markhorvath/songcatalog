@@ -5,10 +5,10 @@ Created on Sat Jul  1 10:56:26 2017
 
 @author: markhorvath
 """
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, func, distinct
 from sqlalchemy.orm import sessionmaker
 
-from songsdb_setup import Base, Song, Tags, Names
+from songsdb_setup import Base, Category, Song
 
 engine = create_engine('sqlite:///songs.db')
 # Bind the engine to the metadata of the Base class so that the
@@ -23,48 +23,54 @@ session = DBSession()
 f = open('mainTable.txt', 'r')
 
 lines = f.readlines()
+categories = []
 
-for line in lines:
-    data = line.split("|")
-    ID = data[0]
-    key = data[1]
-    year = data[2]
-    composer = data[3]
-    bpm = data[4]
-    timesig = data[5]
-    source = data[6]
+## Populate the Category table
+#for line in lines:
+#    data = line.split("|")
+#    category = data[3]
+#    if category not in categories:
+#        categories.append(category)
+#        
+#for category in categories:
+#    categoryToAdd = Category(name = category)
+#    session.add(categoryToAdd)
+#    session.commit()
+#    for line in lines:
+#        data = line.split("|")
+#        if data[3] == category:
+#            name = data[0]
+#            key = data[1]
+#            year = data[2]
+#            category = data[3]
+#            composer = data[4]
+#            bpm = data[5]
+#            timesig = data[6]
+#            source = data[7]
+#            song1 = Song(name = name, key=key, year=year, composer = composer,
+#                         bpm=bpm, timesig=timesig, source=source, category = categoryToAdd)
+#            session.add(song1)
+#            session.commit()
 
-    
-    song1 = Song(id=ID, key=key, year=year, composer = composer,
-                 bpm=bpm, timesig=timesig, source=source)
-    session.add(song1)
-    session.commit()
+result = session.query(Song.id).all()
+#
+print result
+#print categories
+#for line in lines:
+#    data = line.split("|")
+#    name = data[0]
+#    key = data[1]
+#    year = data[2]
+#    category = data[3]
+#    composer = data[4]
+#    bpm = data[5]
+#    timesig = data[6]
+#    source = data[7]
+#    
+#    song1 = Song(name = name, key=key, year=year, composer = composer,
+#                 bpm=bpm, timesig=timesig, source=source, category = category(category))
+#    session.add(song1)
+#    session.commit()
 
-f = open('nameTable.txt', 'r')
 
-lines = f.readlines()
-
-for line in lines:
-    data = line.split("|")
-    ID = id
-    name = data[1]
-    song_id = data[0]
-    
-    name1 = Names(name = name, song_id = song_id)
-    session.add(name1)
-    session.commit()
-    
-f = open('tagTable.txt', 'r')
-
-lines = f.readlines()
-
-for line in lines:
-    data = line.split("|")
-    tags = data[1]
-    song_id = data[0]
-    
-    tag1 = Tags(tags = tags, song_id = song_id)
-    session.add(tag1)
-    session.commit()
-    
     

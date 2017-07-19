@@ -15,14 +15,14 @@ from sqlalchemy import and_, distinct, func, or_
 from flask import session as login_session
 import random, string
 
-#from oauth2client.client import flow_from_clientsecrets
-#from oauth2client.client import FlowExchangeError
+from oauth2client.client import flow_from_clientsecrets
+from oauth2client.client import FlowExchangeError
 import httplib2
 import json
 import requests
 from flask import make_response
 
-from songsdb_setup import Base, Song, Tags, Names
+from songsdb_setup import Base, Category, Song
 
 CLIENT_ID = json.loads(
         open('client_secrets.json', 'r').read())['web']['client_id']
@@ -48,24 +48,21 @@ def login():
 @app.route('/')
 @app.route('/index/')
 def showCategories():
-    tags = session.query(Tags).group_by(Tags.tags).all()
-    for i in tags:
-        i.tags = i.tags.title()
-    return render_template('index.html', categories = tags)
+    print('hello')
+    categories = session.query(Category).group_by(Category.name).all()
+    for i in categories:
+        i.name = i.name.title()
+    return render_template('index.html', categories = categories)
 
 # Route to specific category songs
-@app.route('/index/<category>/')
-def showCategorySongs(category):
-    ids = session.query(Tags.song_id).filter(Tags.tags.like(category)).all()
-    #change format of ids, there's surely a better way to do this through
-    #a join or subquery
-    ids = [i[0] for i in ids]
-    names = session.query(Names).filter(Names.song_id.in_(ids)).all()
-    return render_template('categorysongs.html', songs = names, category = category)
+@app.route('/index/<category>/<int:category_id>')
+def showCategorySongs(category, category_id):
+    songs = session.query(Song).filter(Song.category_id == category_id).all()
+    return render_template('categorysongs.html', songs = songs, category = category, category_id = category_id)
 
 # Route to song details
-@app.route('/index/<category>/<int:song_id>/<name>')
-def showSongInfo(category, song_id, name):
+@app.route('/index/<category>/<int:category_id>/<name>/<int:song_id>')
+def showSongInfo(category, category_id, song_id, name):
     song = session.query(Song).filter(Song.id == song_id).one()
     return render_template('songinfo.html', song = song, name = name)
 
@@ -73,7 +70,7 @@ def showSongInfo(category, song_id, name):
 @app.route('/index/newcategory/', methods = ['GET','POST'])
 def newCategory():
     if request.method == 'POST':
-        newCategory = Tags(tags = request.form['name'])
+        newCategory = Category(name = request.form['name'])
         session.add(newCategory)
         session.commit()
         return redirect(url_for('showCategories'))
@@ -81,18 +78,18 @@ def newCategory():
         return render_template('newcategory.html')
 
 # Route to delete a category
-@app.route('/index/<category>/delete', methods = ['GET', 'POST'])
-def deleteCategory(category):
-    # This only works when 'one.()' is appened, if it's all it returns a 302 error
-    categoryToDelete = session.query(Tags).filter(Tags.tags == category).one()
+@app.route('/index/<category>/<int:category_id>/delete', methods = ['GET', 'POST'])
+def deleteCategory(category, category_id):
+    # This only works when 'one.()' is appended, if it's all it returns a 302 error
+    categoryToDelete = session.query(Category).filter(Category.id == category_id).one()
+    print categoryToDelete
     if request.method == 'POST':
-        print categoryToDelete
         session.delete(categoryToDelete)
         session.commit()
         return redirect(url_for('showCategories'))
     else:
         print categoryToDelete
-        return render_template('deletecategory.html', item = categoryToDelete)
+        return render_template('deletecategory.html', category = category, category_id = category_id)
 
 def getCategory(query):
     results = session.query(Tags.tags).filter(Tags.tags.like('%query%')).all()

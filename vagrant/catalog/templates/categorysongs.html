@@ -3,7 +3,7 @@
     <div>
             <div>
                 <h1 class='text-center'>{{ category }}</h1>
-                <button type="button" value="Delete" onclick="window.location.href='{{url_for('deleteCategory', category = category) }}';">Delete</button>
+                <button type="button" value="Delete" onclick="window.location.href='{{url_for('deleteCategory', category = category, category_id = category_id) }}';">Delete</button>
             </div>
 
 
@@ -11,8 +11,8 @@
     <div class='col-lg-12'>
             {% for i in songs %}
         <div class='col-lg-4'>
-            <p>Song ID: {{ i.song_id }}</p>
-            <span><p><a href= "{{url_for('showSongInfo', category = category, song_id = i.song_id, name = i.name) }}">{{i.name}}</a></p></span>
+            <span><p>Song ID: {{ i.id }}</p><span>
+            <span><p><a href= "{{url_for('showSongInfo', category = category, category_id = category_id, song_id = i.id, name = i.name) }}">{{i.name}}</a></p></span>
         </div>
 
             {% endfor %}
