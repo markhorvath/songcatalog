@@ -46,9 +46,8 @@ def login():
     
 # Route to main page
 @app.route('/')
-@app.route('/index/')
+@app.route('/categories/')
 def showCategories():
-    print('hello')
     categories = session.query(Category).group_by(Category.name).all()
     for i in categories:
         i.name = i.name.title()
@@ -67,7 +66,7 @@ def showSongInfo(category, category_id, song_id, name):
     return render_template('songinfo.html', song = song, name = name)
 
 # Route to add a new category
-@app.route('/index/newcategory/', methods = ['GET','POST'])
+@app.route('/category/new/', methods = ['GET','POST'])
 def newCategory():
     if request.method == 'POST':
         newCategory = Category(name = request.form['name'])
@@ -78,7 +77,7 @@ def newCategory():
         return render_template('newcategory.html')
 
 # Route to delete a category
-@app.route('/index/<category>/<int:category_id>/delete', methods = ['GET', 'POST'])
+@app.route('/categories/<category>/<int:category_id>/delete', methods = ['GET', 'POST'])
 def deleteCategory(category, category_id):
     # This only works when 'one.()' is appended, if it's all it returns a 302 error
     categoryToDelete = session.query(Category).filter(Category.id == category_id).one()
@@ -86,11 +85,22 @@ def deleteCategory(category, category_id):
     if request.method == 'POST':
         session.delete(categoryToDelete)
         session.commit()
-        return redirect(url_for('showCategories'))
+        return redirect(url_for('showCategories', category_id = category_id))
     else:
-        return render_template('deletecategory.html', category = category, category_id = category_id)
+        return render_template('deletecategory.html', category = categoryToDelete)
 
-@app.route('/index/<category>/<int:category_id>/newsong', methods = ['GET', 'POST'])
+@app.route('/categories/<int:category_id>/<song_id>/delete', methods = ['GET', 'POST'])
+def deleteSong(category_id, song_id):
+    category = session.query(Category).filter(Category.id == category_id).one()
+    songToDelete = session.query(Song).filter(Song.id == song_id).one()
+    if request.method == 'POST':
+        session.delete(songToDelete)
+        session.commit()
+        return redirect(url_for('showCategorySongs', category = category.name, category_id = category_id))
+    else:
+        return render_template('deletesong.html', song = songToDelete, category = category)
+
+@app.route('/categories/<category>/<int:category_id>/newsong', methods = ['GET', 'POST'])
 def newSong(category, category_id):
     if request.method == 'POST':
         newSong = Song(name = request.form['name'],
@@ -106,10 +116,6 @@ def newSong(category, category_id):
         return redirect(url_for('showCategorySongs', category = category, category_id = category_id))
     else:
         return render_template('newsong.html', category = category, category_id = category_id)
-
-def getCategory(query):
-    results = session.query(Tags.tags).filter(Tags.tags.like('%query%')).all()
-    return results
 
 #results = session.query(Tags.tags, Tags.song_id).filter(Tags.tags.like('%hungarian%')).all()
 #print results

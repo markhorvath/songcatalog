@@ -3,10 +3,22 @@
     <div>
             <div>
                 <h1 class='text-center'>{{ category }}</h1>
-                <button type="button" value="Delete" onclick="window.location.href='{{url_for('deleteCategory', category = category, category_id = category_id) }}';">Delete</button>
-                <button type="button" value="New" onclick="window.location.href='{{url_for('newSong', category = category, category_id = category_id) }}';">Add New Song</button>
+                <div class="row">
+                <div class="col-lg-4 col-lg-offset-4 text-center">
+                    <a href="{{url_for('deleteCategory', category = category, category_id = category_id) }}">
+                        <button class="btn btn-default delete" id="delete-category">
+                            <span class="glyphicon glyphicon-trash"></span>Delete Category
+                        </button>
+                    </a>
+                    <a href="{{url_for('newSong', category = category, category_id = category_id) }}">
+                        <button class="btn btn-default" id="">
+                            <span class="glyphicon glyphicon-plus"></span>Add New Song
+                        </button>
+                    </a>
+                </div>
+                </div>
             </div>
-
+            <br>
 
 
     <div class='col-lg-12'>
@@ -14,6 +26,11 @@
         <div class='col-lg-4'>
             <span><p>Song ID: {{ i.id }}</p><span>
             <span><p><a href= "{{url_for('showSongInfo', category = category, category_id = category_id, song_id = i.id, name = i.name) }}">{{i.name}}</a></p></span>
+            <a href="{{url_for('deleteSong', category_id = category_id, song_id = i.id) }}">
+                <button class="btn btn-default delete" id="delete-category">
+                    <span class="glyphicon glyphicon-trash"></span>
+                </button>
+            </a>
         </div>
 
             {% endfor %}
