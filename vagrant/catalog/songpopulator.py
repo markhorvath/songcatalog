@@ -8,7 +8,7 @@ Created on Sat Jul  1 10:56:26 2017
 from sqlalchemy import create_engine, func, distinct
 from sqlalchemy.orm import sessionmaker
 
-from songsdb_setup import Base, Category, Song
+from songsdb_setup import Base, Category, Song, User
 
 engine = create_engine('sqlite:///songs.db')
 # Bind the engine to the metadata of the Base class so that the
@@ -25,33 +25,36 @@ f = open('mainTable.txt', 'r')
 lines = f.readlines()
 categories = []
 
-# Populate the Category table
-#for line in lines:
-#    data = line.split("|")
-#    category = data[3]
-#    if category not in categories:
-#        categories.append(category)
-#        
-#for category in categories:
-#    categoryToAdd = Category(name = category)
-#    session.add(categoryToAdd)
-#    session.commit()
-#    for line in lines:
-#        data = line.split("|")
-#        if data[3] == category:
-#            name = data[0]
-#            key = data[1]
-#            year = data[2]
-#            category = data[3]
-#            composer = data[4]
-#            bpm = data[5]
-#            timesig = data[6]
-#            source = data[7]
-#            song1 = Song(name = name, key=key, year=year, composer = composer,
-#                         bpm=bpm, timesig=timesig, source=source, category = categoryToAdd)
-#            session.add(song1)
-#            session.commit()
+User1 = User(name="Marky Mark", email="funkybunch@gmail.com",
+             picture='https://pbs.twimg.com/profile_images/2671170543/18debd694829ed78203a5a36dd364160_400x400.png')
+session.add(User1)
+session.commit()
 
-editedCategory = session.query(Category).filter(Category.name.like('Aaa%')).one()
-print editedCategory.name
-print editedCategory.id
+
+# Populate the Category table
+for line in lines:
+    data = line.split("|")
+    category = data[3].title()
+    if category not in categories:
+        categories.append(category)
+#        
+for category in categories:
+    categoryToAdd = Category(user_id=1, name = category)
+    session.add(categoryToAdd)
+    session.commit()
+    for line in lines:
+        data = line.split("|")
+        lineCategory = data[3].title()
+        if lineCategory == category:
+            name = data[0]
+            key = data[1]
+            year = data[2]
+            composer = data[4]
+            bpm = data[5]
+            timesig = data[6]
+            source = data[7]
+            song1 = Song(user_id=1, name = name, key=key, year=year, composer = composer,
+                         bpm=bpm, timesig=timesig, source=source, category = categoryToAdd)
+            session.add(song1)
+            session.commit()
+
