@@ -3,25 +3,29 @@
 
 <div class="col-lg-12">
     <table class="table table-hover">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Year</th>
-        <th>Key</th>
-        <th>Composer</th>
-        <th>Beats Per Minute</th>
-        <th>Time Signature</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>{{ name }}</td>
-        <td>{{ song.year }}</td>
-        <td>{{ song.key }}</td>
-        <td>{{ song.composer }}</td>
-        <td>{{ song.bpm }}</td>
-        <td>{{ song.timesig }}</td>
-      </tr>
+                        <table class="table table-hover">
+                            <tr>
+                                <th>Name: </th>
+                                <td>{{ song.name }}</td>
+                            </tr>
+                            <tr>
+                                <th>Key: </th>
+                                <td>{{ song.key }}</td>
+                            </tr>
+                            <tr>
+                                <th>Composer: </th>
+                                <td>{{ song.composer }}</td>
+                            </tr>
+                            <tr>
+                                <th>Beats Per Minute: </th>
+                                <td>{{ song.bpm }}</td>
+                            </tr>
+                            <tr>
+                                <th>Time Signature: </th>
+                                <td>{{ song.timesig }}</td>
+                            </tr>
+                        </table>
+
     </tbody>
   </table>
 </div>

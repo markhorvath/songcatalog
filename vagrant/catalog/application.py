@@ -51,16 +51,16 @@ def showCategories():
     categories = session.query(Category).group_by(Category.name).all()
     for i in categories:
         i.name = i.name.title()
-    return render_template('index.html', categories = categories)
+    return render_template('categories.html', categories = categories)
 
 # Route to specific category songs
-@app.route('/index/<category>/<int:category_id>')
+@app.route('/categories/<category>/<int:category_id>')
 def showCategorySongs(category, category_id):
     songs = session.query(Song).filter(Song.category_id == category_id).all()
     return render_template('categorysongs.html', songs = songs, category = category, category_id = category_id)
 
 # Route to song details
-@app.route('/index/<category>/<int:category_id>/<name>/<int:song_id>')
+@app.route('/categories/<category>/<int:category_id>/<name>/<int:song_id>')
 def showSongInfo(category, category_id, song_id, name):
     song = session.query(Song).filter(Song.id == song_id).one()
     return render_template('songinfo.html', song = song, name = name)
@@ -72,9 +72,51 @@ def newCategory():
         newCategory = Category(name = request.form['name'])
         session.add(newCategory)
         session.commit()
+        flash('New Category %s Successfully Created' % newCategory.name)
         return redirect(url_for('showCategories'))
     else:
         return render_template('newcategory.html')
+
+@app.route('/category/<category>/edit/', methods = ['GET', 'POST'])
+def editCategory(category):
+    editedCategory = session.query(Category).filter(Category.name.like(category)).one()
+    oldName = editedCategory.name
+    if request.method == 'POST':
+        if request.form['name']:
+            editedCategory.name = request.form['name']
+            flash('Category %s Successfully Changed to %s' % (oldName, editedCategory.name))
+            return redirect(url_for('showCategories'))
+    else:
+        return render_template('editcategory.html', category = editedCategory)
+
+#this needs work
+@app.route('/category/<category>/<name>/<int:song_id>/edit', methods = ['GET', 'POST'])
+def editSong(category, name, song_id):
+    currentCategory = session.query(Category).filter(Category.name == category).one()
+    editedSong = session.query(Song).filter(Song.id == song_id).one()
+    if request.method == 'POST':
+        if request.form['name']:
+            editedSong.name = request.form['name']
+        if request.form['key']:
+            editedSong.key = request.form['key']
+        if request.form['year']:
+            editedSong.year = request.form['year']
+        if request.form['composer']:
+            editedSong.composer = request.form['composer']
+        if request.form['bpm']:
+            editedSong.bpm = request.form['bpm']
+        if request.form['timesig']:
+            editedSong.timesig = request.form['timesig']
+        session.add(editedSong)
+        session.commit()
+        flash('Song Successfully Edited!')
+        return redirect(url_for('showCategorySongs', category = currentCategory.name,
+                                category_id = currentCategory.id))
+    else:
+        return render_template('editsong.html', category = category,
+                               song = editedSong,
+                               name = editedSong.name,
+                               song_id = editedSong.id)
 
 # Route to delete a category
 @app.route('/categories/<category>/<int:category_id>/delete', methods = ['GET', 'POST'])
