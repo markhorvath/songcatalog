@@ -1,31 +1,37 @@
-{% extends "main.html" %}
-{% block content %}
+{% extends "main.html" %} {% block content %}
 <div>
     <div>
-        <h1 class='text-center'>Song Categories</h1><br>
+        <h1 class='text-center'>Song Categories</h1>
+        <div class="col-lg-12 text-center">
+            <a href="{{url_for('newCategory') }}">
+                <button class="btn btn-default" id="add-category">
+                    <span class="glyphicon glyphicon-plus"></span>  Add Category
+                </button>
+            </a>
+        </div>
     </div>
+    <br>
+    <br>
 
-    <div class = 'flash'>
-        {% with messages = get_flashed_messages() %}
-        {% if messages %}
+    <div class='flash'>
+        {% with messages = get_flashed_messages() %} {% if messages %}
         <ul>
-        {% for message in messages %}
+            {% for message in messages %}
             <li> <strong> {{ message }} </strong> </li>
-        {% endfor %}
+            {% endfor %}
         </ul>
-        {% endif %}
-    {% endwith %}
+        {% endif %} {% endwith %}
     </div>
 
     <div class='col-lg-12'>
-            {% for i in categories %}
-        <div class='col-lg-4 text-center'>
-            <span><p><a href= "{{url_for('showCategorySongs', category = i.name, category_id = i.id) }}">{{i.name}}</a></p></span><p>{{ i.id }}</p>
+        {% for i in categories %}
+        <div class='col-lg-4 text-center categories'>
+            <span><p><a href= "{{url_for('showCategorySongs', category = i.name, category_id = i.id) }}">{{i.name}}</a></p></span>
+            <p>{{ i.id }}</p>
         </div>
 
-            {% endfor %}
+        {% endfor %}
     </div>
 
 </div>
 {% endblock %}
-

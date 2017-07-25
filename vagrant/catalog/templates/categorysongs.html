@@ -6,24 +6,24 @@
             <div class="col-lg-4 col-lg-offset-4 text-center">
                 <a href="{{url_for('deleteCategory', category = category, category_id = category_id) }}">
                     <button class="btn btn-default delete" id="delete-category">
-                        <span class="glyphicon glyphicon-trash"></span>Delete Category
+                        <span class="glyphicon glyphicon-trash"></span>  Delete Category
                     </button>
                 </a>
                 <a href="{{url_for('editCategory', category = category) }}">
                     <button class="btn btn-default delete" id="edit-category">
-                        <span class="glyphicon glyphicon-pencil"></span>Edit Category
+                        <span class="glyphicon glyphicon-pencil"></span>  Edit Category
                     </button>
                 </a>
                 <a href="{{url_for('newSong', category = category, category_id = category_id) }}">
-                    <button class="btn btn-default" id="">
-                        <span class="glyphicon glyphicon-plus"></span>Add New Song
+                    <button class="btn btn-default" id="add-song">
+                        <span class="glyphicon glyphicon-plus"></span>  Add New Song
                     </button>
                 </a>
             </div>
         </div>
     </div>
     <br>
-    <div class='flash text-center'>
+    <div class='flash text-center jumbotron'>
         {% with messages = get_flashed_messages() %} {% if messages %}
         <ul>
             {% for message in messages %}
@@ -35,53 +35,52 @@
 
     <div class='col-lg-12 text-center'>
         {% for i in songs %}
-        <div class='col-lg-4'>
+        <div class='col-lg-4 text-center' id="song-label">
             <span><p>Song ID: {{ i.id }}</p><span>
-            <span><p><a href= "{{url_for('showSongInfo', category = category, category_id = category_id, song_id = i.id, name = i.name) }}">{{i.name}}</a></p></span>
-            <a href="{{url_for('deleteSong', category_id = category_id, song_id = i.id) }}">
-                <button class="btn btn-default delete" id="delete-song">
-                    <span class="glyphicon glyphicon-trash"></span>
-                </button>
+            <span><p><a href= "{{url_for('showSongInfo', category = category, category_id = category_id, song_id = i.id, name = i.name) }}"><i>{{i.name}}</i></a></p></span>
+            <a href="{{url_for('editSong', category = category, name = i.name, song_id = i.id) }}">
+
+                    <span class="glyphicon glyphicon-pencil" id="edit-song"></span>
+
             </a>
+
             <!-- test -->
             <button id="btn{{ i.id }}" onclick="moreInfo(modal{{i.id}})">More Info</button>
 
-            <a href="{{url_for('editSong', category = category, name = i.name, song_id = i.id) }}">
-                <button class="btn btn-default" id="edit-song">
-                    <span class="glyphicon glyphicon-pencil"></span>
-                </button>
+            <a href="{{url_for('deleteSong', category_id = category_id, song_id = i.id) }}">
+                    <span class="glyphicon glyphicon-trash" id="delete-song"></span>
             </a>
 
             <div id="modal{{i.id}}" class="modal">
                 <div class="modal-content">
                     <button onclick="function() {modal.style.display = 'none';}">
-                        <span class="glyphicon glyphicon-remove" >Close</span>
+                        <span class="glyphicon glyphicon-remove">Close</span>
                     </button>
 
-                        <table class="table table-hover">
-                            <tr>
-                                <th>Name: </th>
-                                <td>{{ i.name }}</td>
-                            </tr>
-                            <tr>
-                                <th>Key: </th>
-                                <td>{{ i.key }}</td>
-                            </tr>
-                            <tr>
-                                <th>Composer: </th>
-                                <td>{{ i.composer }}</td>
-                            </tr>
-                            <tr>
-                                <th>Beats Per Minute: </th>
-                                <td>{{ i.bpm }}</td>
-                            </tr>
-                            <tr>
-                                <th>Time Signature: </th>
-                                <td>{{ i.timesig }}</td>
-                            </tr>
-                        </table>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default close" data-dismiss="modal"">Close</button>
+                    <table class="table table-hover">
+                        <tr>
+                            <th>Name: </th>
+                            <td>{{ i.name }}</td>
+                        </tr>
+                        <tr>
+                            <th>Key: </th>
+                            <td>{{ i.key }}</td>
+                        </tr>
+                        <tr>
+                            <th>Composer: </th>
+                            <td>{{ i.composer }}</td>
+                        </tr>
+                        <tr>
+                            <th>Beats Per Minute: </th>
+                            <td>{{ i.bpm }}</td>
+                        </tr>
+                        <tr>
+                            <th>Time Signature: </th>
+                            <td>{{ i.timesig }}</td>
+                        </tr>
+                    </table>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default close" data-dismiss="modal" ">Close</button>
                         </div>
 
                 </div>
@@ -108,7 +107,7 @@
     }
     // window.onclick = function(event) {
     //     if (event.target == modal) {
-    //         modal.style.display = "none";
+    //         modal.style.display = "none ";
     //     }
     // }
 </script>

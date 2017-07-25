@@ -42,14 +42,14 @@ def login():
     state = ''.join(random.choice(string.ascii_uppercase + string.
                 digits) for x in xrange(32))
     login_session['state'] = state
-    print login_session['state']
-    return render_template('login.html', STATE = state)
+    return render_template('login.html', STATE=state)
     
 @app.route('/gconnect', methods = ['POST'])
 def gconnect():
     print('hello')
     # Valitdate state token
     if request.args.get('state') != login_session['state']:
+        print('this1')
         response = make_response(json.dumps('Invalid state parameter.'), 401)
         response.headers['Content-Type'] = 'application/json'
         return response
@@ -61,6 +61,7 @@ def gconnect():
         oauth_flow.redirect_uri = 'postmessage'
         credentials = oauth_flow.step2_exchange(code)
     except FlowExchangeError:
+        print('this2')
         response = make_response(
             json.dumps('Failed to upgrade the authorization code.'), 401)
         response.headers['Content-Type'] = 'application/json'
@@ -81,6 +82,7 @@ def gconnect():
     # Verify that the access token is used for the intended user.
     gplus_id = credentials.id_token['sub']
     if result['user_id'] != gplus_id:
+        print('this3')
         response = make_response(
             json.dumps("Token's user ID doesn't match given user ID."), 401)
         response.headers['Content-Type'] = 'application/json'
@@ -88,6 +90,7 @@ def gconnect():
 
     # Verify that the access token is valid for this app.
     if result['issued_to'] != CLIENT_ID:
+        print('this4')
         response = make_response(
             json.dumps("Token's client ID does not match app's."), 401)
         print "Token's client ID does not match app's."
@@ -156,9 +159,7 @@ def gdisconnect():
     if result['status'] == '200':
 	del login_session['access_token'] 
     	del login_session['gplus_id']
-    	del login_session['username']
-    	del login_session['email']
-    	del login_session['picture']
+
     	response = make_response(json.dumps('Successfully disconnected.'), 200)
     	response.headers['Content-Type'] = 'application/json'
     	return response
@@ -174,8 +175,6 @@ def disconnect():
     if 'provider' in login_session:
         if login_session['provider'] == 'google':
             gdisconnect()
-            del login_session['access_token'] 
-            del login_session['gplus_id']
         #removed fbdisconnect for now, will add fb connectivity later,
         #fbdisconnect should go here
             

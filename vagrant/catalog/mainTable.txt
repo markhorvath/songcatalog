@@ -838,8 +838,8 @@ Der Flohwalzer |Gb|1799|folk|anon|108|2/4|FT
 Der Flohwalzer |Gb|1799|film|anon|108|2/4|FT
 Der Flohwalzer |Gb|1799|tv|anon|108|2/4|FT
 Der Flohwalzer |Gb|1799|animated|anon|108|2/4|FT
-Die Gedanken Sind Frei (RSO8) |c|1965|folk|anon|150|3/4|RSO8
-Die Gedanken Sind Frei (RSO8) |c|1965|german|anon|150|3/4|RSO8
+Die Gedanken Sind Frei (RSO8) |C|1965|folk|anon|150|3/4|RSO8
+Die Gedanken Sind Frei (RSO8) |C|1965|german|anon|150|3/4|RSO8
 Di Provenza il Mar, il Sol |Db|1852|aria|Verdi|60|4/4|FT
 Di Provenza il Mar, il Sol |Db|1852|opera|Verdi|60|4/4|FT
 Di Provenza il Mar, il Sol |Db|1852|romantic|Verdi|60|4/4|FT
