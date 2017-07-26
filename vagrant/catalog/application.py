@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from sqlalchemy import and_, distinct, func, or_
+from sqlalchemy import func
 
 from flask import session as login_session
 import random, string
@@ -44,12 +44,11 @@ def login():
     login_session['state'] = state
     return render_template('login.html', STATE=state)
     
+# Route to connect via Google
 @app.route('/gconnect', methods = ['POST'])
 def gconnect():
-    print('hello')
     # Valitdate state token
     if request.args.get('state') != login_session['state']:
-        print('this1')
         response = make_response(json.dumps('Invalid state parameter.'), 401)
         response.headers['Content-Type'] = 'application/json'
         return response
@@ -61,7 +60,6 @@ def gconnect():
         oauth_flow.redirect_uri = 'postmessage'
         credentials = oauth_flow.step2_exchange(code)
     except FlowExchangeError:
-        print('this2')
         response = make_response(
             json.dumps('Failed to upgrade the authorization code.'), 401)
         response.headers['Content-Type'] = 'application/json'
@@ -82,7 +80,6 @@ def gconnect():
     # Verify that the access token is used for the intended user.
     gplus_id = credentials.id_token['sub']
     if result['user_id'] != gplus_id:
-        print('this3')
         response = make_response(
             json.dumps("Token's user ID doesn't match given user ID."), 401)
         response.headers['Content-Type'] = 'application/json'
@@ -90,7 +87,6 @@ def gconnect():
 
     # Verify that the access token is valid for this app.
     if result['issued_to'] != CLIENT_ID:
-        print('this4')
         response = make_response(
             json.dumps("Token's client ID does not match app's."), 401)
         print "Token's client ID does not match app's."
@@ -135,7 +131,6 @@ def gconnect():
     output += login_session['picture']
     output += ' " style = "width: 300px; height: 300px;border-radius: 150px;-webkit-border-radius: 150px;-moz-border-radius: 150px;"> '
     flash("you are now logged in as %s" % login_session['username'])
-    print "done!"
     return output
 
 # Disconnect from Google, remove user's login session and token
@@ -302,9 +297,7 @@ def editSong(category, name, song_id):
 # Route to delete a category
 @app.route('/categories/<category>/<int:category_id>/delete', methods = ['GET', 'POST'])
 def deleteCategory(category, category_id):
-    # This only works when 'one.()' is appended, if it's all it returns a 302 error
     categoryToDelete = session.query(Category).filter(Category.id == category_id).one()
-    print categoryToDelete
     if request.method == 'POST':
         session.delete(categoryToDelete)
         session.commit()
