@@ -93,14 +93,6 @@ label {
     color: black;
 }
 
-.glyphicon-trash:hover {
-    background-color: red;
-}
-
-.glyphicon-pencil:hover {
-     background-color: lightgreen;
-}
-
 .btn {
     margin: 5px;
 }

@@ -87,6 +87,9 @@
         </div>
 
         {% endfor %}
+        {% if songs == [] %}
+        <p> No songs currently in this category.  Would you like to add a song?</p>
+        {% endif %}
     </div>
 
 </div>

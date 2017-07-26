@@ -234,7 +234,7 @@ def categorySongsJSON(category_id):
     songs = session.query(Song).filter(Song.category_id == category_id).all()
     return jsonify(songs = [c.serialize for c in songs])
 
-@app.route('/categories/<int:category_id>/<song>/<int:song_id>/JSON')
+@app.route('/categories/<int:category_id>/song/<int:song_id>/JSON')
 def songJSON(category_id, song_id):
     songInfo = session.query(Song).filter(Song.id == song_id).one()
     return jsonify(songInfo = songInfo.serialize)
