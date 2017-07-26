@@ -23,7 +23,7 @@
         </div>
     </div>
     <br>
-    <div class='flash text-center jumbotron'>
+    <div>
         {% with messages = get_flashed_messages() %} {% if messages %}
         <ul>
             {% for message in messages %}
@@ -40,18 +40,17 @@
             <span><p><a href= "{{url_for('showSongInfo', category = category, category_id = category_id, song_id = i.id, name = i.name) }}"><i>{{i.name}}</i></a></p></span>
             <a href="{{url_for('editSong', category = category, name = i.name, song_id = i.id) }}">
 
-                    <span class="glyphicon glyphicon-pencil" id="edit-song"></span>
+                    <span class="glyphicon glyphicon-pencil" id="edit-song"> Edit</span>
 
             </a>
 
-            <!-- test -->
-            <button id="btn{{ i.id }}" onclick="moreInfo(modal{{i.id}})">More Info</button>
+<!--             <button id="btn{{ i.id }}" onclick="moreInfo(modal{{i.id}})">More Info</button> -->
 
             <a href="{{url_for('deleteSong', category_id = category_id, song_id = i.id) }}">
-                    <span class="glyphicon glyphicon-trash" id="delete-song"></span>
+                    <span class="glyphicon glyphicon-trash text-right" id="delete-song"> Delete</span>
             </a>
 
-            <div id="modal{{i.id}}" class="modal">
+<!--             <div id="modal{{i.id}}" class="modal">
                 <div class="modal-content">
                     <button onclick="function() {modal.style.display = 'none';}">
                         <span class="glyphicon glyphicon-remove">Close</span>
@@ -84,7 +83,7 @@
                         </div>
 
                 </div>
-            </div>
+            </div> -->
         </div>
 
         {% endfor %}
@@ -92,7 +91,7 @@
 
 </div>
 <script>
-    var modal = document.getEle
+
 
     function moreInfo(id) {
         console.log(id);

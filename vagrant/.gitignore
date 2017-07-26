@@ -1,3 +1,5 @@
 __pycache__
 *.pyc
 .vagrant
+catalog/client_secrets.json
+

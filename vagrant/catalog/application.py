@@ -197,13 +197,47 @@ def showCategories():
     categories = session.query(Category).group_by(Category.name).all()
     for i in categories:
         i.name = i.name.title()
-    return render_template('categories.html', categories = categories)
+        songsInCategory = session.query(func.count(Song.name)).filter(Song.category_id == i.id).all()
+        i.count = int(songsInCategory[0][0])
+        
+    if 'username' not in login_session:
+        return render_template('publiccategories.html', categories = categories)
+    else: 
+        return render_template('categories.html', categories = categories)
 
 # Route to specific category songs
 @app.route('/categories/<category>/<int:category_id>')
 def showCategorySongs(category, category_id):
     songs = session.query(Song).filter(Song.category_id == category_id).all()
-    return render_template('categorysongs.html', songs = songs, category = category, category_id = category_id)
+    
+    if 'username' not in login_session:
+        return render_template('publicsongs.html', songs = songs, 
+                               category = category,
+                               category_id = category_id)
+    else:
+        return render_template('categorysongs.html', songs = songs, 
+                           category = category, 
+                           category_id = category_id)
+
+@app.route('/about/')
+def showAbout():
+    return render_template('about.html')
+
+# Routes to get JSON APIS for Categories and Songs
+@app.route('/categories/JSON')
+def categoriesJSON():
+    categories = session.query(Category).all()
+    return jsonify(categories = [c.serialize for c in categories])
+
+@app.route('/categories/<int:category_id>/JSON')
+def categorySongsJSON(category_id):
+    songs = session.query(Song).filter(Song.category_id == category_id).all()
+    return jsonify(songs = [c.serialize for c in songs])
+
+@app.route('/categories/<int:category_id>/<song>/<int:song_id>/JSON')
+def songJSON(category_id, song_id):
+    songInfo = session.query(Song).filter(Song.id == song_id).one()
+    return jsonify(songInfo = songInfo.serialize)
 
 # Route to song details
 @app.route('/categories/<category>/<int:category_id>/<name>/<int:song_id>')
@@ -215,7 +249,8 @@ def showSongInfo(category, category_id, song_id, name):
 @app.route('/category/new/', methods = ['GET','POST'])
 def newCategory():
     if request.method == 'POST':
-        newCategory = Category(name = request.form['name'])
+        newCategory = Category(name = request.form['name'],
+                               user_id = login_session['user_id'])
         session.add(newCategory)
         session.commit()
         flash('New Category %s Successfully Created' % newCategory.name)
@@ -239,7 +274,6 @@ def editCategory(category):
 # Route to edit a song
 @app.route('/category/<category>/<name>/<int:song_id>/edit', methods = ['GET', 'POST'])
 def editSong(category, name, song_id):
-    print category
     currentCategory = session.query(Category).filter(Category.name == category).one()
     editedSong = session.query(Song).filter(Song.id == song_id).one()
     if request.method == 'POST':
@@ -293,6 +327,7 @@ def deleteSong(category_id, song_id):
 # Route to add a new song
 @app.route('/categories/<category>/<int:category_id>/newsong', methods = ['GET', 'POST'])
 def newSong(category, category_id):
+    categoryQuery = session.query(Category).filter(Category.id == category_id).one()
     if request.method == 'POST':
         newSong = Song(name = request.form['name'],
                        key = request.form['key'],
@@ -301,9 +336,11 @@ def newSong(category, category_id):
                        bpm = request.form['bpm'],
                        timesig = request.form['timesig'],
                        source = request.form['source'],
-                       category_id = category_id)
+                       category_id = category_id,
+                       user_id = categoryQuery.user_id)
         session.add(newSong)
         session.commit()
+        flash('New Song "%s" added to %s' % (newSong.name, category))
         return redirect(url_for('showCategorySongs', category = category, category_id = category_id))
     else:
         return render_template('newsong.html', category = category, category_id = category_id)

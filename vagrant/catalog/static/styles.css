@@ -1,4 +1,11 @@
+* {
+    font-family: 'Neuton', serif, Arial, Sans-serif;
+    font-size: 24px;
+}
 
+h1 {
+    font-size: 48px;
+}
 
 table, th, td {
     border: 1px solid black;
@@ -86,8 +93,20 @@ label {
     color: black;
 }
 
+.glyphicon-trash:hover {
+    background-color: red;
+}
+
+.glyphicon-pencil:hover {
+     background-color: lightgreen;
+}
+
 .btn {
     margin: 5px;
+}
+
+.btn:hover {
+    background-color: #c0b283;
 }
 
 #song-label {
@@ -103,4 +122,8 @@ label {
 #logo {
     color: gold;
     font-size: 50px;
+}
+
+#login-container {
+    margin-top: 100px;
 }

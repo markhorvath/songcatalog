@@ -62,7 +62,8 @@ class Song(Base):
            'year'      : self.year,
            'composer'  : self.composer,
            'bpm'       : self.bpm,
-           'timesig'   : self.timesig
+           'timesig'   : self.timesig,
+           'source'    : self.source
        }
     
 engine = create_engine(
