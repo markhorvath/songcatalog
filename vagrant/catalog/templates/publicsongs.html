@@ -2,6 +2,25 @@
 <div>
     <div>
         <h1 class='text-center'>{{ category }}</h1>
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-4 text-center">
+                <a href="{{url_for('deleteCategory', category = category, category_id = category_id) }}">
+                    <button class="btn btn-default delete" id="delete-category">
+                        <span class="glyphicon glyphicon-trash"></span>  Delete Category
+                    </button>
+                </a>
+                <a href="{{url_for('editCategory', category = category) }}">
+                    <button class="btn btn-default delete" id="edit-category">
+                        <span class="glyphicon glyphicon-pencil"></span>  Edit Category
+                    </button>
+                </a>
+                <a href="{{url_for('newSong', category = category, category_id = category_id) }}">
+                    <button class="btn btn-default" id="add-song">
+                        <span class="glyphicon glyphicon-plus"></span>  Add New Song
+                    </button>
+                </a>
+            </div>
+        </div>
     </div>
     <br>
     <div>
@@ -19,10 +38,24 @@
         <div class='col-lg-4 text-center' id="song-label">
             <span><p>Song ID: {{ i.id }}</p><span>
             <span><p><a href= "{{url_for('showSongInfo', category = category, category_id = category_id, song_id = i.id, name = i.name) }}"><i>{{i.name}}</i></a></p></span>
+            <a href="{{url_for('editSong', category = category, name = i.name, song_id = i.id) }}">
+
+                    <span class="glyphicon glyphicon-pencil" id="edit-song"> Edit</span>
+
+            </a>
+
+            <a href="{{url_for('deleteSong', category_id = category_id, song_id = i.id) }}">
+                    <span class="glyphicon glyphicon-trash text-right" id="delete-song"> Delete</span>
+            </a>
+
         </div>
 
         {% endfor %}
+        {% if songs == [] %}
+        <p> No songs currently in this category.  Would you like to add a song?</p>
+        {% endif %}
     </div>
 
 </div>
+
 {% endblock %}
